@@ -1,0 +1,2014 @@
+.builder-title, .builder-list-of-expert .builder-list-of-expert-item .builder-list-of-expert-item--text h3 {
+  font-family: "sofia-pro";
+  font-weight: 400;
+  font-size: 13px;
+  color: #FF7300;
+  line-height: 140%;
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+}
+
+.builder-subtitle {
+  font-family: "sofia-pro";
+  font-weight: 400;
+  font-size: 60px;
+  color: #ffffff;
+  line-height: 120%;
+}
+@media (max-width: 1300px) {
+  .builder-subtitle {
+    font-size: 50px;
+  }
+}
+@media (max-width: 1100px) {
+  .builder-subtitle {
+    font-size: 40px;
+  }
+}
+@media (max-width: 767px) {
+  .builder-subtitle {
+    font-size: 35px;
+  }
+}
+
+.builder-subtitle-2, .builder-list-of-expert .builder-list-of-expert-item .builder-list-of-expert-item--text h4 {
+  font-family: "sofia-pro";
+  font-weight: 400;
+  font-size: 50px;
+  color: #ffffff;
+  line-height: 120%;
+}
+@media (max-width: 1300px) {
+  .builder-subtitle-2, .builder-list-of-expert .builder-list-of-expert-item .builder-list-of-expert-item--text h4 {
+    font-size: 40px;
+  }
+}
+@media (max-width: 1100px) {
+  .builder-subtitle-2, .builder-list-of-expert .builder-list-of-expert-item .builder-list-of-expert-item--text h4 {
+    font-size: 35px;
+  }
+}
+@media (max-width: 767px) {
+  .builder-subtitle-2, .builder-list-of-expert .builder-list-of-expert-item .builder-list-of-expert-item--text h4 {
+    font-size: 28px;
+  }
+}
+
+.builder-text, .event-recent-section .builder-video-list-item h3, .performance-iq-recent-section .builder-video-list-item h3, .event-recent-section .builder-video-list-item h4, .performance-iq-recent-section .builder-video-list-item h4, .builder-video-list .builder-video-list-slider .builder-video-list-item h3, .builder-video-list .builder-video-list-slider .builder-video-list-item h4, .block_of_text_with_list ul li, .builder-list-of-expert .builder-list-of-expert-item .builder-list-of-expert-item--text p {
+  font-family: "sofia-pro";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 170%;
+  color: #D3D8E2;
+}
+@media (max-width: 767px) {
+  .builder-text, .event-recent-section .builder-video-list-item h3, .performance-iq-recent-section .builder-video-list-item h3, .event-recent-section .builder-video-list-item h4, .performance-iq-recent-section .builder-video-list-item h4, .builder-video-list .builder-video-list-slider .builder-video-list-item h3, .builder-video-list .builder-video-list-slider .builder-video-list-item h4, .block_of_text_with_list ul li, .builder-list-of-expert .builder-list-of-expert-item .builder-list-of-expert-item--text p {
+    font-size: 14px;
+  }
+}
+
+.block_of_content_with_image {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+@media (max-width: 767px) {
+  .block_of_content_with_image {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+.block_of_content_with_image .image-position-right > div:first-child {
+  order: 1;
+}
+.block_of_content_with_image .image-position-right > div:last-child {
+  order: 2;
+}
+.block_of_content_with_image .image-position-left > div:first-child {
+  order: 2;
+}
+.block_of_content_with_image .image-position-left > div:last-child {
+  order: 1;
+}
+.block_of_content_with_image .container {
+  max-width: 1920px;
+}
+.block_of_content_with_image .block_of_content_with_image__text {
+  padding: 30px 20px;
+}
+.block_of_content_with_image .block_of_content_with_image__text .block_of_content_with_image__text--inner {
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.block_of_content_with_image .block_of_content_with_image__text .builder-title, .block_of_content_with_image .block_of_content_with_image__text .builder-list-of-expert .builder-list-of-expert-item .builder-list-of-expert-item--text h3, .builder-list-of-expert .builder-list-of-expert-item .builder-list-of-expert-item--text .block_of_content_with_image .block_of_content_with_image__text h3 {
+  padding-bottom: 15px;
+}
+.block_of_content_with_image .block_of_content_with_image__text .builder-buttons {
+  padding-top: 30px;
+  display: flex;
+  align-items: center;
+}
+.block_of_content_with_image .block_of_content_with_image__text .builder-buttons .btn {
+  height: 50px;
+  line-height: calc(50px - (0.375rem * 2));
+  min-width: 160px;
+}
+@media (max-width: 767px) {
+  .block_of_content_with_image .block_of_content_with_image__text .builder-buttons .btn {
+    min-width: 140px;
+  }
+}
+.block_of_content_with_image .block_of_content_with_image__text .builder-buttons a {
+  margin-right: 25px;
+  border-radius: 0 !important;
+}
+@media (max-width: 767px) {
+  .block_of_content_with_image .block_of_content_with_image__text .builder-buttons a {
+    margin-right: 10px;
+    font-size: 14px;
+  }
+}
+.block_of_content_with_image .block_of_content_with_image__text .builder-buttons a:not(.btn) {
+  color: #ffffff;
+  text-decoration: underline;
+  transition: color 0.5s ease-in-out;
+  font-size: 14px;
+}
+.block_of_content_with_image .block_of_content_with_image__text .builder-buttons a:not(.btn):hover {
+  color: #FF7300;
+}
+.block_of_content_with_image .block_of_content_with_image__image {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.builder-logos {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+@media (max-width: 767px) {
+  .builder-logos {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+.builder-logos .builder-logos-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.builder-logos a {
+  display: block;
+  min-width: 200px;
+  padding: 20px;
+}
+.builder-logos img {
+  height: 78px;
+  display: block;
+  margin: 0 auto;
+}
+
+.block_of_text {
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+.block_of_text .builder-subtitle-2, .block_of_text .builder-list-of-expert .builder-list-of-expert-item .builder-list-of-expert-item--text h4, .builder-list-of-expert .builder-list-of-expert-item .builder-list-of-expert-item--text .block_of_text h4 {
+  padding-bottom: 20px;
+}
+.block_of_text .container {
+  max-width: 1200px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.builder-spacer {
+  height: 70px;
+}
+@media (max-width: 767px) {
+  .builder-spacer {
+    height: 35px;
+  }
+}
+
+.builder-list-of-expert {
+  padding-bottom: 100px;
+  padding-top: 100px;
+  background: linear-gradient(281.86deg, #5E616E 9.65%, #373944 97.52%);
+}
+@media (max-width: 767px) {
+  .builder-list-of-expert {
+    padding-top: 60px;
+    padding-bottom: 40px;
+  }
+}
+.builder-list-of-expert .container {
+  max-width: 1100px;
+}
+.builder-list-of-expert .builder-subtitle-2, .builder-list-of-expert .builder-list-of-expert-item .builder-list-of-expert-item--text h4 {
+  padding-bottom: 30px;
+}
+@media (max-width: 767px) {
+  .builder-list-of-expert .builder-subtitle-2, .builder-list-of-expert .builder-list-of-expert-item .builder-list-of-expert-item--text h4 {
+    padding-bottom: 10px;
+  }
+}
+.builder-list-of-expert .row > div {
+  height: auto;
+}
+.builder-list-of-expert .builder-list-of-expert-item {
+  padding: 15px;
+  padding-left: 30px;
+  height: 100%;
+}
+@media (max-width: 992px) {
+  .builder-list-of-expert .builder-list-of-expert-item {
+    padding-left: 15px;
+  }
+}
+.builder-list-of-expert .builder-list-of-expert-item .builder-list-of-expert-item--inner {
+  display: flex;
+  align-items: center;
+  position: relative;
+  background-color: #15181f;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  height: 100%;
+}
+.builder-list-of-expert .builder-list-of-expert-item .builder-list-of-expert-item--img {
+  max-width: 182px;
+  margin-left: -30px;
+}
+@media (max-width: 992px) {
+  .builder-list-of-expert .builder-list-of-expert-item .builder-list-of-expert-item--img {
+    max-width: 93px;
+    margin-left: -15px;
+  }
+}
+.builder-list-of-expert .builder-list-of-expert-item .builder-list-of-expert-item--text {
+  padding-left: 20px;
+  padding-right: 10px;
+}
+.builder-list-of-expert .builder-list-of-expert-item .builder-list-of-expert-item--text h3 {
+  font-size: 12px;
+}
+.builder-list-of-expert .builder-list-of-expert-item .builder-list-of-expert-item--text h4 {
+  font-size: 20px;
+  padding-bottom: 0;
+}
+@media (max-width: 767px) {
+  .builder-list-of-expert .builder-list-of-expert-item .builder-list-of-expert-item--text h4 {
+    font-size: 18px;
+  }
+}
+.builder-list-of-expert .builder-list-of-expert-item .builder-list-of-expert-item--text p {
+  margin-bottom: 0;
+}
+
+.block_of_text_with_list {
+  padding-top: 140px;
+  padding-bottom: 140px;
+  background: linear-gradient(281.86deg, #252730 9.65%, #2F313C 97.52%);
+}
+@media (max-width: 767px) {
+  .block_of_text_with_list {
+    padding-top: 60px;
+    padding-bottom: 40px;
+  }
+}
+.block_of_text_with_list .container {
+  max-width: 1200px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.block_of_text_with_list .block_of_text_with_list--content {
+  max-width: 520px;
+}
+.block_of_text_with_list .btn {
+  height: 50px;
+  line-height: calc(50px - (0.375rem * 2));
+  min-width: 160px;
+  border-radius: 0 !important;
+  margin-bottom: 30px;
+}
+.block_of_text_with_list h2 {
+  margin-bottom: 20px;
+}
+.block_of_text_with_list ul {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+.block_of_text_with_list ul li {
+  padding: 10px 0;
+  padding-left: 1em;
+  text-indent: -1em;
+}
+.block_of_text_with_list ul li:before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  padding-right: 16px;
+  margin-right: 8px;
+  background-image: url(./img/check_primary.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.builder-video-list {
+  overflow: hidden;
+  padding-top: 140px;
+  padding-bottom: 140px;
+}
+@media (max-width: 767px) {
+  .builder-video-list {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+.builder-video-list h2 {
+  margin-bottom: 20px;
+}
+.builder-video-list .container {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.builder-video-list .builder-video-list-slider {
+  width: 125vw;
+  padding-bottom: 70px;
+  position: relative;
+  margin-left: -10px;
+}
+@media (max-width: 767px) {
+  .builder-video-list .builder-video-list-slider {
+    width: 100%;
+    margin-left: 0px;
+  }
+}
+.builder-video-list .builder-video-list-slider .slick-arrow {
+  position: absolute;
+  bottom: 0;
+  width: 60px;
+  height: 60px;
+  border: 0;
+  background-color: #262832;
+  background-repeat: no-repeat;
+  background-position: center center;
+  color: transparent;
+  transition: background-color 0.5s ease-in-out;
+}
+.builder-video-list .builder-video-list-slider .slick-arrow:hover {
+  background-color: #FF7300;
+}
+.builder-video-list .builder-video-list-slider .slick-arrow.slick-next {
+  left: 70px;
+  background-image: url(./img/arrow-right.svg);
+}
+@media (max-width: 767px) {
+  .builder-video-list .builder-video-list-slider .slick-arrow.slick-next {
+    left: 70px;
+  }
+}
+.builder-video-list .builder-video-list-slider .slick-arrow.slick-prev {
+  left: 10px;
+  background-image: url(./img/arrow-left.svg);
+}
+@media (max-width: 767px) {
+  .builder-video-list .builder-video-list-slider .slick-arrow.slick-prev {
+    left: 0px;
+  }
+}
+.builder-video-list .builder-video-list-slider .builder-video-list-item {
+  padding: 10px;
+  cursor: pointer;
+}
+@media (max-width: 767px) {
+  .builder-video-list .builder-video-list-slider .builder-video-list-item {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+.builder-video-list .builder-video-list-slider .builder-video-list-item h3, .builder-video-list .builder-video-list-slider .builder-video-list-item h4 {
+  max-width: 541px;
+  font-size: 24px;
+  line-height: 130%;
+  margin-bottom: 20px;
+  display: none;
+}
+@media (max-width: 1300px) {
+  .builder-video-list .builder-video-list-slider .builder-video-list-item h3, .builder-video-list .builder-video-list-slider .builder-video-list-item h4 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 767px) {
+  .builder-video-list .builder-video-list-slider .builder-video-list-item h3, .builder-video-list .builder-video-list-slider .builder-video-list-item h4 {
+    font-size: 16px;
+  }
+}
+@media (max-width: 767px) {
+  .builder-video-list .builder-video-list-slider .builder-video-list-item h3, .builder-video-list .builder-video-list-slider .builder-video-list-item h4 {
+    display: block;
+  }
+}
+.builder-video-list .builder-video-list-slider .builder-video-list-item h4 {
+  margin-bottom: 0px;
+  font-size: 14px;
+  padding-top: 20px;
+  margin-bottom: 5px;
+}
+.builder-video-list .builder-video-list-slider .builder-video-list-item .builder-video-list-item--inner {
+  background-size: cover;
+  padding-bottom: 56.25%;
+  position: relative;
+}
+.builder-video-list .builder-video-list-slider .builder-video-list-item .builder-video-list-item--inner .builder-video-list--text {
+  position: absolute;
+  bottom: 40px;
+  left: 40px;
+  padding-right: 40px;
+}
+.builder-video-list .builder-video-list-slider .builder-video-list-item .builder-video-list-item--inner .builder-video-list--text h3 {
+  display: none;
+}
+@media (min-width: 768px) {
+  .builder-video-list .builder-video-list-slider .builder-video-list-item .builder-video-list-item--inner .builder-video-list--text h3 {
+    display: block;
+  }
+}
+@media (max-width: 1200px) {
+  .builder-video-list .builder-video-list-slider .builder-video-list-item .builder-video-list-item--inner .builder-video-list--text {
+    bottom: 20px;
+    left: 20px;
+    padding-right: 20px;
+  }
+}
+.builder-video-list .builder-video-list-slider .builder-video-list-item .builder-video-list-item--inner .builder-video-list--text div {
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+.builder-video-list .builder-video-list-slider .builder-video-list-item .builder-video-list-item--inner .builder-video-list--text div:hover {
+  text-decoration: none;
+}
+.builder-video-list .builder-video-list-slider .builder-video-list-item .builder-video-list-item--inner .builder-video-list--text div span {
+  position: relative;
+  display: flex;
+  width: 40px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #FF7300;
+  margin-right: 15px;
+  color: #ffffff;
+}
+.builder-video-list .builder-video-list-slider .builder-video-list-item .builder-video-list-item--inner .builder-video-list--text div span:before {
+  content: "";
+  display: block;
+  width: 0;
+  height: 8px;
+  border-color: transparent transparent transparent #fff;
+  transition: 100ms all ease;
+  cursor: pointer;
+  border-style: solid;
+  border-width: 5px 0 5px 8px;
+}
+
+#builder-modal-video .modal-content, #builder-modal-event-video .modal-content {
+  width: 100%;
+  max-width: 900px !important;
+  min-height: auto !important;
+}
+#builder-modal-video .close, #builder-modal-event-video .close {
+  position: absolute;
+  top: 3px;
+  right: 10px;
+  color: white;
+  z-index: 99;
+  font-size: 30px !important;
+  font-family: "sofia-pro";
+  font-weight: 400;
+}
+@media (max-width: 767px) {
+  #builder-modal-video .close, #builder-modal-event-video .close {
+    display: none;
+  }
+}
+#builder-modal-video .modal-body, #builder-modal-event-video .modal-body {
+  padding: 0 !important;
+  position: relative;
+}
+#builder-modal-video .modal-body .builder-modal-video-container, #builder-modal-event-video .modal-body .builder-modal-video-container {
+  position: relative;
+  background-color: #000000;
+  padding-bottom: 56.25%;
+}
+#builder-modal-video .modal-body .builder-modal-video-container iframe,
+#builder-modal-video .modal-body .builder-modal-video-container video, #builder-modal-event-video .modal-body .builder-modal-video-container iframe,
+#builder-modal-event-video .modal-body .builder-modal-video-container video {
+  position: absolute !important;
+  left: 0 !important;
+  top: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  transform: none !important;
+}
+
+.single-event {
+  padding-top: 60px;
+}
+
+.single-event .modal-backdrop {
+  display: none !important;
+}
+
+.builder-info_block {
+  padding-top: 140px;
+  padding-bottom: 140px;
+  background-size: cover;
+  background-position: center;
+}
+@media (max-width: 767px) {
+  .builder-info_block {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+}
+.builder-info_block .container {
+  max-width: 600px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.builder-info_block .btn {
+  height: 50px;
+  line-height: calc(50px - (0.375rem * 2));
+  min-width: 160px;
+  border-radius: 0 !important;
+}
+
+.event .title, .newsletter .title {
+  color: #fff;
+  margin: 0;
+}
+.event .title-container, .newsletter .title-container {
+  margin-bottom: 40px;
+}
+
+.event-main-section, .performance-iq-main-section, .performance-iq-hero-section {
+  position: relative;
+  padding: 200px 0 125px;
+  overflow: hidden;
+}
+@media (max-width: 1220px) {
+  .event-main-section, .performance-iq-main-section, .performance-iq-hero-section {
+    padding-bottom: 70px;
+  }
+}
+@media (max-width: 1220px) {
+  .event-main-section .col-md-6, .performance-iq-main-section .col-md-6, .performance-iq-hero-section .col-md-6 {
+    flex: none;
+    max-width: none;
+    padding: 0;
+  }
+}
+@media (max-width: 1220px) {
+  .event-main-section .container, .performance-iq-main-section .container, .performance-iq-hero-section .container {
+    max-width: 1300px;
+  }
+}
+.event-main-section h1.title, .performance-iq-main-section h1.title, .performance-iq-hero-section h1.title {
+  font-size: 60px;
+  line-height: 78px;
+}
+@media (max-width: 544px) {
+  .event-main-section h1.title, .performance-iq-main-section h1.title, .performance-iq-hero-section h1.title {
+    font-size: 50px;
+  }
+}
+@media (max-width: 466px) {
+  .event-main-section h1.title, .performance-iq-main-section h1.title, .performance-iq-hero-section h1.title {
+    font-size: 36px;
+  }
+}
+@media (max-width: 280px) {
+  .event-main-section h1.title, .performance-iq-main-section h1.title, .performance-iq-hero-section h1.title {
+    font-size: 26px;
+  }
+}
+.event-main-section .block_of_content_of_event, .performance-iq-main-section .block_of_content_of_event, .performance-iq-hero-section .block_of_content_of_event {
+  width: 753px;
+  height: 637px;
+  background: linear-gradient(#252730, #2F313C);
+}
+@media (max-width: 1220px) {
+  .event-main-section .block_of_content_of_event, .performance-iq-main-section .block_of_content_of_event, .performance-iq-hero-section .block_of_content_of_event {
+    width: auto;
+    height: 400px;
+  }
+}
+@media (max-width: 541px) {
+  .event-main-section .block_of_content_of_event, .performance-iq-main-section .block_of_content_of_event, .performance-iq-hero-section .block_of_content_of_event {
+    height: 442px;
+  }
+}
+@media (max-width: 425px) {
+  .event-main-section .block_of_content_of_event, .performance-iq-main-section .block_of_content_of_event, .performance-iq-hero-section .block_of_content_of_event {
+    height: 528px;
+  }
+}
+@media (max-width: 280px) {
+  .event-main-section .block_of_content_of_event, .performance-iq-main-section .block_of_content_of_event, .performance-iq-hero-section .block_of_content_of_event {
+    height: 684px;
+  }
+}
+.event-main-section .block_of_content_of_event .builder-text, .performance-iq-main-section .block_of_content_of_event .builder-text, .performance-iq-hero-section .block_of_content_of_event .builder-text, .event-main-section .block_of_content_of_event .event-recent-section .builder-video-list-item h3, .event-main-section .block_of_content_of_event .performance-iq-recent-section .builder-video-list-item h3, .performance-iq-main-section .block_of_content_of_event .event-recent-section .builder-video-list-item h3, .performance-iq-main-section .block_of_content_of_event .performance-iq-recent-section .builder-video-list-item h3, .performance-iq-hero-section .block_of_content_of_event .event-recent-section .builder-video-list-item h3, .performance-iq-hero-section .block_of_content_of_event .performance-iq-recent-section .builder-video-list-item h3, .event-recent-section .builder-video-list-item .event-main-section .block_of_content_of_event h3, .performance-iq-recent-section .builder-video-list-item .event-main-section .block_of_content_of_event h3, .event-recent-section .builder-video-list-item .performance-iq-main-section .block_of_content_of_event h3, .performance-iq-recent-section .builder-video-list-item .performance-iq-main-section .block_of_content_of_event h3, .event-recent-section .builder-video-list-item .performance-iq-hero-section .block_of_content_of_event h3, .performance-iq-recent-section .builder-video-list-item .performance-iq-hero-section .block_of_content_of_event h3, .event-main-section .block_of_content_of_event .event-recent-section .builder-video-list-item h4, .event-main-section .block_of_content_of_event .performance-iq-recent-section .builder-video-list-item h4, .performance-iq-main-section .block_of_content_of_event .event-recent-section .builder-video-list-item h4, .performance-iq-main-section .block_of_content_of_event .performance-iq-recent-section .builder-video-list-item h4, .performance-iq-hero-section .block_of_content_of_event .event-recent-section .builder-video-list-item h4, .performance-iq-hero-section .block_of_content_of_event .performance-iq-recent-section .builder-video-list-item h4, .event-recent-section .builder-video-list-item .event-main-section .block_of_content_of_event h4, .performance-iq-recent-section .builder-video-list-item .event-main-section .block_of_content_of_event h4, .event-recent-section .builder-video-list-item .performance-iq-main-section .block_of_content_of_event h4, .performance-iq-recent-section .builder-video-list-item .performance-iq-main-section .block_of_content_of_event h4, .event-recent-section .builder-video-list-item .performance-iq-hero-section .block_of_content_of_event h4, .performance-iq-recent-section .builder-video-list-item .performance-iq-hero-section .block_of_content_of_event h4, .event-main-section .block_of_content_of_event .builder-list-of-expert .builder-list-of-expert-item .builder-list-of-expert-item--text p, .performance-iq-main-section .block_of_content_of_event .builder-list-of-expert .builder-list-of-expert-item .builder-list-of-expert-item--text p, .performance-iq-hero-section .block_of_content_of_event .builder-list-of-expert .builder-list-of-expert-item .builder-list-of-expert-item--text p, .builder-list-of-expert .builder-list-of-expert-item .builder-list-of-expert-item--text .event-main-section .block_of_content_of_event p, .builder-list-of-expert .builder-list-of-expert-item .builder-list-of-expert-item--text .performance-iq-main-section .block_of_content_of_event p, .builder-list-of-expert .builder-list-of-expert-item .builder-list-of-expert-item--text .performance-iq-hero-section .block_of_content_of_event p, .event-main-section .block_of_content_of_event .block_of_text_with_list ul li, .performance-iq-main-section .block_of_content_of_event .block_of_text_with_list ul li, .performance-iq-hero-section .block_of_content_of_event .block_of_text_with_list ul li, .block_of_text_with_list ul .event-main-section .block_of_content_of_event li, .block_of_text_with_list ul .performance-iq-main-section .block_of_content_of_event li, .block_of_text_with_list ul .performance-iq-hero-section .block_of_content_of_event li, .event-main-section .block_of_content_of_event .builder-video-list .builder-video-list-slider .builder-video-list-item h3, .performance-iq-main-section .block_of_content_of_event .builder-video-list .builder-video-list-slider .builder-video-list-item h3, .performance-iq-hero-section .block_of_content_of_event .builder-video-list .builder-video-list-slider .builder-video-list-item h3, .builder-video-list .builder-video-list-slider .builder-video-list-item .event-main-section .block_of_content_of_event h3, .builder-video-list .builder-video-list-slider .builder-video-list-item .performance-iq-main-section .block_of_content_of_event h3, .builder-video-list .builder-video-list-slider .builder-video-list-item .performance-iq-hero-section .block_of_content_of_event h3, .event-main-section .block_of_content_of_event .builder-video-list .builder-video-list-slider .builder-video-list-item h4, .performance-iq-main-section .block_of_content_of_event .builder-video-list .builder-video-list-slider .builder-video-list-item h4, .performance-iq-hero-section .block_of_content_of_event .builder-video-list .builder-video-list-slider .builder-video-list-item h4, .builder-video-list .builder-video-list-slider .builder-video-list-item .event-main-section .block_of_content_of_event h4, .builder-video-list .builder-video-list-slider .builder-video-list-item .performance-iq-main-section .block_of_content_of_event h4, .builder-video-list .builder-video-list-slider .builder-video-list-item .performance-iq-hero-section .block_of_content_of_event h4, .event-main-section .block_of_content_of_event .builder-subtitle, .performance-iq-main-section .block_of_content_of_event .builder-subtitle, .performance-iq-hero-section .block_of_content_of_event .builder-subtitle, .event-main-section .block_of_content_of_event .builder-buttons, .performance-iq-main-section .block_of_content_of_event .builder-buttons, .performance-iq-hero-section .block_of_content_of_event .builder-buttons {
+  padding-left: 100px;
+}
+@media (max-width: 1220px) {
+  .event-main-section .block_of_content_of_event .builder-text, .performance-iq-main-section .block_of_content_of_event .builder-text, .performance-iq-hero-section .block_of_content_of_event .builder-text, .event-main-section .block_of_content_of_event .event-recent-section .builder-video-list-item h3, .event-main-section .block_of_content_of_event .performance-iq-recent-section .builder-video-list-item h3, .performance-iq-main-section .block_of_content_of_event .event-recent-section .builder-video-list-item h3, .performance-iq-main-section .block_of_content_of_event .performance-iq-recent-section .builder-video-list-item h3, .performance-iq-hero-section .block_of_content_of_event .event-recent-section .builder-video-list-item h3, .performance-iq-hero-section .block_of_content_of_event .performance-iq-recent-section .builder-video-list-item h3, .event-recent-section .builder-video-list-item .event-main-section .block_of_content_of_event h3, .performance-iq-recent-section .builder-video-list-item .event-main-section .block_of_content_of_event h3, .event-recent-section .builder-video-list-item .performance-iq-main-section .block_of_content_of_event h3, .performance-iq-recent-section .builder-video-list-item .performance-iq-main-section .block_of_content_of_event h3, .event-recent-section .builder-video-list-item .performance-iq-hero-section .block_of_content_of_event h3, .performance-iq-recent-section .builder-video-list-item .performance-iq-hero-section .block_of_content_of_event h3, .event-main-section .block_of_content_of_event .event-recent-section .builder-video-list-item h4, .event-main-section .block_of_content_of_event .performance-iq-recent-section .builder-video-list-item h4, .performance-iq-main-section .block_of_content_of_event .event-recent-section .builder-video-list-item h4, .performance-iq-main-section .block_of_content_of_event .performance-iq-recent-section .builder-video-list-item h4, .performance-iq-hero-section .block_of_content_of_event .event-recent-section .builder-video-list-item h4, .performance-iq-hero-section .block_of_content_of_event .performance-iq-recent-section .builder-video-list-item h4, .event-recent-section .builder-video-list-item .event-main-section .block_of_content_of_event h4, .performance-iq-recent-section .builder-video-list-item .event-main-section .block_of_content_of_event h4, .event-recent-section .builder-video-list-item .performance-iq-main-section .block_of_content_of_event h4, .performance-iq-recent-section .builder-video-list-item .performance-iq-main-section .block_of_content_of_event h4, .event-recent-section .builder-video-list-item .performance-iq-hero-section .block_of_content_of_event h4, .performance-iq-recent-section .builder-video-list-item .performance-iq-hero-section .block_of_content_of_event h4, .event-main-section .block_of_content_of_event .builder-list-of-expert .builder-list-of-expert-item .builder-list-of-expert-item--text p, .performance-iq-main-section .block_of_content_of_event .builder-list-of-expert .builder-list-of-expert-item .builder-list-of-expert-item--text p, .performance-iq-hero-section .block_of_content_of_event .builder-list-of-expert .builder-list-of-expert-item .builder-list-of-expert-item--text p, .builder-list-of-expert .builder-list-of-expert-item .builder-list-of-expert-item--text .event-main-section .block_of_content_of_event p, .builder-list-of-expert .builder-list-of-expert-item .builder-list-of-expert-item--text .performance-iq-main-section .block_of_content_of_event p, .builder-list-of-expert .builder-list-of-expert-item .builder-list-of-expert-item--text .performance-iq-hero-section .block_of_content_of_event p, .event-main-section .block_of_content_of_event .block_of_text_with_list ul li, .performance-iq-main-section .block_of_content_of_event .block_of_text_with_list ul li, .performance-iq-hero-section .block_of_content_of_event .block_of_text_with_list ul li, .block_of_text_with_list ul .event-main-section .block_of_content_of_event li, .block_of_text_with_list ul .performance-iq-main-section .block_of_content_of_event li, .block_of_text_with_list ul .performance-iq-hero-section .block_of_content_of_event li, .event-main-section .block_of_content_of_event .builder-video-list .builder-video-list-slider .builder-video-list-item h3, .performance-iq-main-section .block_of_content_of_event .builder-video-list .builder-video-list-slider .builder-video-list-item h3, .performance-iq-hero-section .block_of_content_of_event .builder-video-list .builder-video-list-slider .builder-video-list-item h3, .builder-video-list .builder-video-list-slider .builder-video-list-item .event-main-section .block_of_content_of_event h3, .builder-video-list .builder-video-list-slider .builder-video-list-item .performance-iq-main-section .block_of_content_of_event h3, .builder-video-list .builder-video-list-slider .builder-video-list-item .performance-iq-hero-section .block_of_content_of_event h3, .event-main-section .block_of_content_of_event .builder-video-list .builder-video-list-slider .builder-video-list-item h4, .performance-iq-main-section .block_of_content_of_event .builder-video-list .builder-video-list-slider .builder-video-list-item h4, .performance-iq-hero-section .block_of_content_of_event .builder-video-list .builder-video-list-slider .builder-video-list-item h4, .builder-video-list .builder-video-list-slider .builder-video-list-item .event-main-section .block_of_content_of_event h4, .builder-video-list .builder-video-list-slider .builder-video-list-item .performance-iq-main-section .block_of_content_of_event h4, .builder-video-list .builder-video-list-slider .builder-video-list-item .performance-iq-hero-section .block_of_content_of_event h4, .event-main-section .block_of_content_of_event .builder-subtitle, .performance-iq-main-section .block_of_content_of_event .builder-subtitle, .performance-iq-hero-section .block_of_content_of_event .builder-subtitle, .event-main-section .block_of_content_of_event .builder-buttons, .performance-iq-main-section .block_of_content_of_event .builder-buttons, .performance-iq-hero-section .block_of_content_of_event .builder-buttons {
+    padding-left: 50px;
+  }
+}
+.event-main-section .block_of_content_of_event .builder-text, .performance-iq-main-section .block_of_content_of_event .builder-text, .performance-iq-hero-section .block_of_content_of_event .builder-text, .event-main-section .block_of_content_of_event .event-recent-section .builder-video-list-item h3, .event-main-section .block_of_content_of_event .performance-iq-recent-section .builder-video-list-item h3, .performance-iq-main-section .block_of_content_of_event .event-recent-section .builder-video-list-item h3, .performance-iq-main-section .block_of_content_of_event .performance-iq-recent-section .builder-video-list-item h3, .performance-iq-hero-section .block_of_content_of_event .event-recent-section .builder-video-list-item h3, .performance-iq-hero-section .block_of_content_of_event .performance-iq-recent-section .builder-video-list-item h3, .event-recent-section .builder-video-list-item .event-main-section .block_of_content_of_event h3, .performance-iq-recent-section .builder-video-list-item .event-main-section .block_of_content_of_event h3, .event-recent-section .builder-video-list-item .performance-iq-main-section .block_of_content_of_event h3, .performance-iq-recent-section .builder-video-list-item .performance-iq-main-section .block_of_content_of_event h3, .event-recent-section .builder-video-list-item .performance-iq-hero-section .block_of_content_of_event h3, .performance-iq-recent-section .builder-video-list-item .performance-iq-hero-section .block_of_content_of_event h3, .event-main-section .block_of_content_of_event .event-recent-section .builder-video-list-item h4, .event-main-section .block_of_content_of_event .performance-iq-recent-section .builder-video-list-item h4, .performance-iq-main-section .block_of_content_of_event .event-recent-section .builder-video-list-item h4, .performance-iq-main-section .block_of_content_of_event .performance-iq-recent-section .builder-video-list-item h4, .performance-iq-hero-section .block_of_content_of_event .event-recent-section .builder-video-list-item h4, .performance-iq-hero-section .block_of_content_of_event .performance-iq-recent-section .builder-video-list-item h4, .event-recent-section .builder-video-list-item .event-main-section .block_of_content_of_event h4, .performance-iq-recent-section .builder-video-list-item .event-main-section .block_of_content_of_event h4, .event-recent-section .builder-video-list-item .performance-iq-main-section .block_of_content_of_event h4, .performance-iq-recent-section .builder-video-list-item .performance-iq-main-section .block_of_content_of_event h4, .event-recent-section .builder-video-list-item .performance-iq-hero-section .block_of_content_of_event h4, .performance-iq-recent-section .builder-video-list-item .performance-iq-hero-section .block_of_content_of_event h4, .event-main-section .block_of_content_of_event .builder-list-of-expert .builder-list-of-expert-item .builder-list-of-expert-item--text p, .performance-iq-main-section .block_of_content_of_event .builder-list-of-expert .builder-list-of-expert-item .builder-list-of-expert-item--text p, .performance-iq-hero-section .block_of_content_of_event .builder-list-of-expert .builder-list-of-expert-item .builder-list-of-expert-item--text p, .builder-list-of-expert .builder-list-of-expert-item .builder-list-of-expert-item--text .event-main-section .block_of_content_of_event p, .builder-list-of-expert .builder-list-of-expert-item .builder-list-of-expert-item--text .performance-iq-main-section .block_of_content_of_event p, .builder-list-of-expert .builder-list-of-expert-item .builder-list-of-expert-item--text .performance-iq-hero-section .block_of_content_of_event p, .event-main-section .block_of_content_of_event .block_of_text_with_list ul li, .performance-iq-main-section .block_of_content_of_event .block_of_text_with_list ul li, .performance-iq-hero-section .block_of_content_of_event .block_of_text_with_list ul li, .block_of_text_with_list ul .event-main-section .block_of_content_of_event li, .block_of_text_with_list ul .performance-iq-main-section .block_of_content_of_event li, .block_of_text_with_list ul .performance-iq-hero-section .block_of_content_of_event li, .event-main-section .block_of_content_of_event .builder-video-list .builder-video-list-slider .builder-video-list-item h3, .performance-iq-main-section .block_of_content_of_event .builder-video-list .builder-video-list-slider .builder-video-list-item h3, .performance-iq-hero-section .block_of_content_of_event .builder-video-list .builder-video-list-slider .builder-video-list-item h3, .builder-video-list .builder-video-list-slider .builder-video-list-item .event-main-section .block_of_content_of_event h3, .builder-video-list .builder-video-list-slider .builder-video-list-item .performance-iq-main-section .block_of_content_of_event h3, .builder-video-list .builder-video-list-slider .builder-video-list-item .performance-iq-hero-section .block_of_content_of_event h3, .event-main-section .block_of_content_of_event .builder-video-list .builder-video-list-slider .builder-video-list-item h4, .performance-iq-main-section .block_of_content_of_event .builder-video-list .builder-video-list-slider .builder-video-list-item h4, .performance-iq-hero-section .block_of_content_of_event .builder-video-list .builder-video-list-slider .builder-video-list-item h4, .builder-video-list .builder-video-list-slider .builder-video-list-item .event-main-section .block_of_content_of_event h4, .builder-video-list .builder-video-list-slider .builder-video-list-item .performance-iq-main-section .block_of_content_of_event h4, .builder-video-list .builder-video-list-slider .builder-video-list-item .performance-iq-hero-section .block_of_content_of_event h4, .event-main-section .block_of_content_of_event .builder-subtitle, .performance-iq-main-section .block_of_content_of_event .builder-subtitle, .performance-iq-hero-section .block_of_content_of_event .builder-subtitle {
+  padding-right: 168px;
+}
+@media (max-width: 1220px) {
+  .event-main-section .block_of_content_of_event .builder-text, .performance-iq-main-section .block_of_content_of_event .builder-text, .performance-iq-hero-section .block_of_content_of_event .builder-text, .event-main-section .block_of_content_of_event .event-recent-section .builder-video-list-item h3, .event-main-section .block_of_content_of_event .performance-iq-recent-section .builder-video-list-item h3, .performance-iq-main-section .block_of_content_of_event .event-recent-section .builder-video-list-item h3, .performance-iq-main-section .block_of_content_of_event .performance-iq-recent-section .builder-video-list-item h3, .performance-iq-hero-section .block_of_content_of_event .event-recent-section .builder-video-list-item h3, .performance-iq-hero-section .block_of_content_of_event .performance-iq-recent-section .builder-video-list-item h3, .event-recent-section .builder-video-list-item .event-main-section .block_of_content_of_event h3, .performance-iq-recent-section .builder-video-list-item .event-main-section .block_of_content_of_event h3, .event-recent-section .builder-video-list-item .performance-iq-main-section .block_of_content_of_event h3, .performance-iq-recent-section .builder-video-list-item .performance-iq-main-section .block_of_content_of_event h3, .event-recent-section .builder-video-list-item .performance-iq-hero-section .block_of_content_of_event h3, .performance-iq-recent-section .builder-video-list-item .performance-iq-hero-section .block_of_content_of_event h3, .event-main-section .block_of_content_of_event .event-recent-section .builder-video-list-item h4, .event-main-section .block_of_content_of_event .performance-iq-recent-section .builder-video-list-item h4, .performance-iq-main-section .block_of_content_of_event .event-recent-section .builder-video-list-item h4, .performance-iq-main-section .block_of_content_of_event .performance-iq-recent-section .builder-video-list-item h4, .performance-iq-hero-section .block_of_content_of_event .event-recent-section .builder-video-list-item h4, .performance-iq-hero-section .block_of_content_of_event .performance-iq-recent-section .builder-video-list-item h4, .event-recent-section .builder-video-list-item .event-main-section .block_of_content_of_event h4, .performance-iq-recent-section .builder-video-list-item .event-main-section .block_of_content_of_event h4, .event-recent-section .builder-video-list-item .performance-iq-main-section .block_of_content_of_event h4, .performance-iq-recent-section .builder-video-list-item .performance-iq-main-section .block_of_content_of_event h4, .event-recent-section .builder-video-list-item .performance-iq-hero-section .block_of_content_of_event h4, .performance-iq-recent-section .builder-video-list-item .performance-iq-hero-section .block_of_content_of_event h4, .event-main-section .block_of_content_of_event .builder-list-of-expert .builder-list-of-expert-item .builder-list-of-expert-item--text p, .performance-iq-main-section .block_of_content_of_event .builder-list-of-expert .builder-list-of-expert-item .builder-list-of-expert-item--text p, .performance-iq-hero-section .block_of_content_of_event .builder-list-of-expert .builder-list-of-expert-item .builder-list-of-expert-item--text p, .builder-list-of-expert .builder-list-of-expert-item .builder-list-of-expert-item--text .event-main-section .block_of_content_of_event p, .builder-list-of-expert .builder-list-of-expert-item .builder-list-of-expert-item--text .performance-iq-main-section .block_of_content_of_event p, .builder-list-of-expert .builder-list-of-expert-item .builder-list-of-expert-item--text .performance-iq-hero-section .block_of_content_of_event p, .event-main-section .block_of_content_of_event .block_of_text_with_list ul li, .performance-iq-main-section .block_of_content_of_event .block_of_text_with_list ul li, .performance-iq-hero-section .block_of_content_of_event .block_of_text_with_list ul li, .block_of_text_with_list ul .event-main-section .block_of_content_of_event li, .block_of_text_with_list ul .performance-iq-main-section .block_of_content_of_event li, .block_of_text_with_list ul .performance-iq-hero-section .block_of_content_of_event li, .event-main-section .block_of_content_of_event .builder-video-list .builder-video-list-slider .builder-video-list-item h3, .performance-iq-main-section .block_of_content_of_event .builder-video-list .builder-video-list-slider .builder-video-list-item h3, .performance-iq-hero-section .block_of_content_of_event .builder-video-list .builder-video-list-slider .builder-video-list-item h3, .builder-video-list .builder-video-list-slider .builder-video-list-item .event-main-section .block_of_content_of_event h3, .builder-video-list .builder-video-list-slider .builder-video-list-item .performance-iq-main-section .block_of_content_of_event h3, .builder-video-list .builder-video-list-slider .builder-video-list-item .performance-iq-hero-section .block_of_content_of_event h3, .event-main-section .block_of_content_of_event .builder-video-list .builder-video-list-slider .builder-video-list-item h4, .performance-iq-main-section .block_of_content_of_event .builder-video-list .builder-video-list-slider .builder-video-list-item h4, .performance-iq-hero-section .block_of_content_of_event .builder-video-list .builder-video-list-slider .builder-video-list-item h4, .builder-video-list .builder-video-list-slider .builder-video-list-item .event-main-section .block_of_content_of_event h4, .builder-video-list .builder-video-list-slider .builder-video-list-item .performance-iq-main-section .block_of_content_of_event h4, .builder-video-list .builder-video-list-slider .builder-video-list-item .performance-iq-hero-section .block_of_content_of_event h4, .event-main-section .block_of_content_of_event .builder-subtitle, .performance-iq-main-section .block_of_content_of_event .builder-subtitle, .performance-iq-hero-section .block_of_content_of_event .builder-subtitle {
+    padding-right: 20px;
+  }
+}
+.event-main-section .block_of_content_of_event .builder-text:nth-of-type(1), .performance-iq-main-section .block_of_content_of_event .builder-text:nth-of-type(1), .performance-iq-hero-section .block_of_content_of_event .builder-text:nth-of-type(1), .event-main-section .block_of_content_of_event .event-recent-section .builder-video-list-item h3:nth-of-type(1), .event-main-section .block_of_content_of_event .performance-iq-recent-section .builder-video-list-item h3:nth-of-type(1), .performance-iq-main-section .block_of_content_of_event .event-recent-section .builder-video-list-item h3:nth-of-type(1), .performance-iq-main-section .block_of_content_of_event .performance-iq-recent-section .builder-video-list-item h3:nth-of-type(1), .performance-iq-hero-section .block_of_content_of_event .event-recent-section .builder-video-list-item h3:nth-of-type(1), .performance-iq-hero-section .block_of_content_of_event .performance-iq-recent-section .builder-video-list-item h3:nth-of-type(1), .event-recent-section .builder-video-list-item .event-main-section .block_of_content_of_event h3:nth-of-type(1), .performance-iq-recent-section .builder-video-list-item .event-main-section .block_of_content_of_event h3:nth-of-type(1), .event-recent-section .builder-video-list-item .performance-iq-main-section .block_of_content_of_event h3:nth-of-type(1), .performance-iq-recent-section .builder-video-list-item .performance-iq-main-section .block_of_content_of_event h3:nth-of-type(1), .event-recent-section .builder-video-list-item .performance-iq-hero-section .block_of_content_of_event h3:nth-of-type(1), .performance-iq-recent-section .builder-video-list-item .performance-iq-hero-section .block_of_content_of_event h3:nth-of-type(1), .event-main-section .block_of_content_of_event .event-recent-section .builder-video-list-item h4:nth-of-type(1), .event-main-section .block_of_content_of_event .performance-iq-recent-section .builder-video-list-item h4:nth-of-type(1), .performance-iq-main-section .block_of_content_of_event .event-recent-section .builder-video-list-item h4:nth-of-type(1), .performance-iq-main-section .block_of_content_of_event .performance-iq-recent-section .builder-video-list-item h4:nth-of-type(1), .performance-iq-hero-section .block_of_content_of_event .event-recent-section .builder-video-list-item h4:nth-of-type(1), .performance-iq-hero-section .block_of_content_of_event .performance-iq-recent-section .builder-video-list-item h4:nth-of-type(1), .event-recent-section .builder-video-list-item .event-main-section .block_of_content_of_event h4:nth-of-type(1), .performance-iq-recent-section .builder-video-list-item .event-main-section .block_of_content_of_event h4:nth-of-type(1), .event-recent-section .builder-video-list-item .performance-iq-main-section .block_of_content_of_event h4:nth-of-type(1), .performance-iq-recent-section .builder-video-list-item .performance-iq-main-section .block_of_content_of_event h4:nth-of-type(1), .event-recent-section .builder-video-list-item .performance-iq-hero-section .block_of_content_of_event h4:nth-of-type(1), .performance-iq-recent-section .builder-video-list-item .performance-iq-hero-section .block_of_content_of_event h4:nth-of-type(1), .event-main-section .block_of_content_of_event .builder-list-of-expert .builder-list-of-expert-item .builder-list-of-expert-item--text p:nth-of-type(1), .performance-iq-main-section .block_of_content_of_event .builder-list-of-expert .builder-list-of-expert-item .builder-list-of-expert-item--text p:nth-of-type(1), .performance-iq-hero-section .block_of_content_of_event .builder-list-of-expert .builder-list-of-expert-item .builder-list-of-expert-item--text p:nth-of-type(1), .builder-list-of-expert .builder-list-of-expert-item .builder-list-of-expert-item--text .event-main-section .block_of_content_of_event p:nth-of-type(1), .builder-list-of-expert .builder-list-of-expert-item .builder-list-of-expert-item--text .performance-iq-main-section .block_of_content_of_event p:nth-of-type(1), .builder-list-of-expert .builder-list-of-expert-item .builder-list-of-expert-item--text .performance-iq-hero-section .block_of_content_of_event p:nth-of-type(1), .event-main-section .block_of_content_of_event .block_of_text_with_list ul li:nth-of-type(1), .performance-iq-main-section .block_of_content_of_event .block_of_text_with_list ul li:nth-of-type(1), .performance-iq-hero-section .block_of_content_of_event .block_of_text_with_list ul li:nth-of-type(1), .block_of_text_with_list ul .event-main-section .block_of_content_of_event li:nth-of-type(1), .block_of_text_with_list ul .performance-iq-main-section .block_of_content_of_event li:nth-of-type(1), .block_of_text_with_list ul .performance-iq-hero-section .block_of_content_of_event li:nth-of-type(1), .event-main-section .block_of_content_of_event .builder-video-list .builder-video-list-slider .builder-video-list-item h3:nth-of-type(1), .performance-iq-main-section .block_of_content_of_event .builder-video-list .builder-video-list-slider .builder-video-list-item h3:nth-of-type(1), .performance-iq-hero-section .block_of_content_of_event .builder-video-list .builder-video-list-slider .builder-video-list-item h3:nth-of-type(1), .builder-video-list .builder-video-list-slider .builder-video-list-item .event-main-section .block_of_content_of_event h3:nth-of-type(1), .builder-video-list .builder-video-list-slider .builder-video-list-item .performance-iq-main-section .block_of_content_of_event h3:nth-of-type(1), .builder-video-list .builder-video-list-slider .builder-video-list-item .performance-iq-hero-section .block_of_content_of_event h3:nth-of-type(1), .event-main-section .block_of_content_of_event .builder-video-list .builder-video-list-slider .builder-video-list-item h4:nth-of-type(1), .performance-iq-main-section .block_of_content_of_event .builder-video-list .builder-video-list-slider .builder-video-list-item h4:nth-of-type(1), .performance-iq-hero-section .block_of_content_of_event .builder-video-list .builder-video-list-slider .builder-video-list-item h4:nth-of-type(1), .builder-video-list .builder-video-list-slider .builder-video-list-item .event-main-section .block_of_content_of_event h4:nth-of-type(1), .builder-video-list .builder-video-list-slider .builder-video-list-item .performance-iq-main-section .block_of_content_of_event h4:nth-of-type(1), .builder-video-list .builder-video-list-slider .builder-video-list-item .performance-iq-hero-section .block_of_content_of_event h4:nth-of-type(1) {
+  color: #fff;
+  height: 28px;
+  padding-top: 141px;
+  margin-bottom: 25px;
+}
+@media (max-width: 1220px) {
+  .event-main-section .block_of_content_of_event .builder-text:nth-of-type(1), .performance-iq-main-section .block_of_content_of_event .builder-text:nth-of-type(1), .performance-iq-hero-section .block_of_content_of_event .builder-text:nth-of-type(1), .event-main-section .block_of_content_of_event .event-recent-section .builder-video-list-item h3:nth-of-type(1), .event-main-section .block_of_content_of_event .performance-iq-recent-section .builder-video-list-item h3:nth-of-type(1), .performance-iq-main-section .block_of_content_of_event .event-recent-section .builder-video-list-item h3:nth-of-type(1), .performance-iq-main-section .block_of_content_of_event .performance-iq-recent-section .builder-video-list-item h3:nth-of-type(1), .performance-iq-hero-section .block_of_content_of_event .event-recent-section .builder-video-list-item h3:nth-of-type(1), .performance-iq-hero-section .block_of_content_of_event .performance-iq-recent-section .builder-video-list-item h3:nth-of-type(1), .event-recent-section .builder-video-list-item .event-main-section .block_of_content_of_event h3:nth-of-type(1), .performance-iq-recent-section .builder-video-list-item .event-main-section .block_of_content_of_event h3:nth-of-type(1), .event-recent-section .builder-video-list-item .performance-iq-main-section .block_of_content_of_event h3:nth-of-type(1), .performance-iq-recent-section .builder-video-list-item .performance-iq-main-section .block_of_content_of_event h3:nth-of-type(1), .event-recent-section .builder-video-list-item .performance-iq-hero-section .block_of_content_of_event h3:nth-of-type(1), .performance-iq-recent-section .builder-video-list-item .performance-iq-hero-section .block_of_content_of_event h3:nth-of-type(1), .event-main-section .block_of_content_of_event .event-recent-section .builder-video-list-item h4:nth-of-type(1), .event-main-section .block_of_content_of_event .performance-iq-recent-section .builder-video-list-item h4:nth-of-type(1), .performance-iq-main-section .block_of_content_of_event .event-recent-section .builder-video-list-item h4:nth-of-type(1), .performance-iq-main-section .block_of_content_of_event .performance-iq-recent-section .builder-video-list-item h4:nth-of-type(1), .performance-iq-hero-section .block_of_content_of_event .event-recent-section .builder-video-list-item h4:nth-of-type(1), .performance-iq-hero-section .block_of_content_of_event .performance-iq-recent-section .builder-video-list-item h4:nth-of-type(1), .event-recent-section .builder-video-list-item .event-main-section .block_of_content_of_event h4:nth-of-type(1), .performance-iq-recent-section .builder-video-list-item .event-main-section .block_of_content_of_event h4:nth-of-type(1), .event-recent-section .builder-video-list-item .performance-iq-main-section .block_of_content_of_event h4:nth-of-type(1), .performance-iq-recent-section .builder-video-list-item .performance-iq-main-section .block_of_content_of_event h4:nth-of-type(1), .event-recent-section .builder-video-list-item .performance-iq-hero-section .block_of_content_of_event h4:nth-of-type(1), .performance-iq-recent-section .builder-video-list-item .performance-iq-hero-section .block_of_content_of_event h4:nth-of-type(1), .event-main-section .block_of_content_of_event .builder-list-of-expert .builder-list-of-expert-item .builder-list-of-expert-item--text p:nth-of-type(1), .performance-iq-main-section .block_of_content_of_event .builder-list-of-expert .builder-list-of-expert-item .builder-list-of-expert-item--text p:nth-of-type(1), .performance-iq-hero-section .block_of_content_of_event .builder-list-of-expert .builder-list-of-expert-item .builder-list-of-expert-item--text p:nth-of-type(1), .builder-list-of-expert .builder-list-of-expert-item .builder-list-of-expert-item--text .event-main-section .block_of_content_of_event p:nth-of-type(1), .builder-list-of-expert .builder-list-of-expert-item .builder-list-of-expert-item--text .performance-iq-main-section .block_of_content_of_event p:nth-of-type(1), .builder-list-of-expert .builder-list-of-expert-item .builder-list-of-expert-item--text .performance-iq-hero-section .block_of_content_of_event p:nth-of-type(1), .event-main-section .block_of_content_of_event .block_of_text_with_list ul li:nth-of-type(1), .performance-iq-main-section .block_of_content_of_event .block_of_text_with_list ul li:nth-of-type(1), .performance-iq-hero-section .block_of_content_of_event .block_of_text_with_list ul li:nth-of-type(1), .block_of_text_with_list ul .event-main-section .block_of_content_of_event li:nth-of-type(1), .block_of_text_with_list ul .performance-iq-main-section .block_of_content_of_event li:nth-of-type(1), .block_of_text_with_list ul .performance-iq-hero-section .block_of_content_of_event li:nth-of-type(1), .event-main-section .block_of_content_of_event .builder-video-list .builder-video-list-slider .builder-video-list-item h3:nth-of-type(1), .performance-iq-main-section .block_of_content_of_event .builder-video-list .builder-video-list-slider .builder-video-list-item h3:nth-of-type(1), .performance-iq-hero-section .block_of_content_of_event .builder-video-list .builder-video-list-slider .builder-video-list-item h3:nth-of-type(1), .builder-video-list .builder-video-list-slider .builder-video-list-item .event-main-section .block_of_content_of_event h3:nth-of-type(1), .builder-video-list .builder-video-list-slider .builder-video-list-item .performance-iq-main-section .block_of_content_of_event h3:nth-of-type(1), .builder-video-list .builder-video-list-slider .builder-video-list-item .performance-iq-hero-section .block_of_content_of_event h3:nth-of-type(1), .event-main-section .block_of_content_of_event .builder-video-list .builder-video-list-slider .builder-video-list-item h4:nth-of-type(1), .performance-iq-main-section .block_of_content_of_event .builder-video-list .builder-video-list-slider .builder-video-list-item h4:nth-of-type(1), .performance-iq-hero-section .block_of_content_of_event .builder-video-list .builder-video-list-slider .builder-video-list-item h4:nth-of-type(1), .builder-video-list .builder-video-list-slider .builder-video-list-item .event-main-section .block_of_content_of_event h4:nth-of-type(1), .builder-video-list .builder-video-list-slider .builder-video-list-item .performance-iq-main-section .block_of_content_of_event h4:nth-of-type(1), .builder-video-list .builder-video-list-slider .builder-video-list-item .performance-iq-hero-section .block_of_content_of_event h4:nth-of-type(1) {
+    padding-top: 70px;
+  }
+}
+.event-main-section .block_of_content_of_event .builder-subtitle, .performance-iq-main-section .block_of_content_of_event .builder-subtitle, .performance-iq-hero-section .block_of_content_of_event .builder-subtitle {
+  font-size: 30px;
+  margin-bottom: 25px;
+}
+.event-main-section .block_of_content_of_event .builder-buttons, .performance-iq-main-section .block_of_content_of_event .builder-buttons, .performance-iq-hero-section .block_of_content_of_event .builder-buttons {
+  padding-top: 25px;
+  display: flex;
+  align-items: center;
+}
+.event-main-section .block_of_content_of_event .builder-buttons .btn, .performance-iq-main-section .block_of_content_of_event .builder-buttons .btn, .performance-iq-hero-section .block_of_content_of_event .builder-buttons .btn {
+  height: 50px;
+  line-height: calc(50px - (0.375rem * 2));
+  min-width: 160px;
+}
+@media (max-width: 767px) {
+  .event-main-section .block_of_content_of_event .builder-buttons .btn, .performance-iq-main-section .block_of_content_of_event .builder-buttons .btn, .performance-iq-hero-section .block_of_content_of_event .builder-buttons .btn {
+    min-width: 140px;
+  }
+}
+.event-main-section .block_of_content_of_event .builder-buttons a, .performance-iq-main-section .block_of_content_of_event .builder-buttons a, .performance-iq-hero-section .block_of_content_of_event .builder-buttons a {
+  margin-right: 25px;
+  border-radius: 0 !important;
+}
+@media (max-width: 767px) {
+  .event-main-section .block_of_content_of_event .builder-buttons a, .performance-iq-main-section .block_of_content_of_event .builder-buttons a, .performance-iq-hero-section .block_of_content_of_event .builder-buttons a {
+    margin-right: 10px;
+    font-size: 14px;
+  }
+}
+.event-main-section .block_of_content_of_event .builder-buttons a:not(.btn), .performance-iq-main-section .block_of_content_of_event .builder-buttons a:not(.btn), .performance-iq-hero-section .block_of_content_of_event .builder-buttons a:not(.btn) {
+  color: #ffffff;
+  text-decoration: underline;
+  transition: color 0.5s ease-in-out;
+  font-size: 14px;
+}
+.event-main-section .block_of_content_of_event .builder-buttons a:not(.btn):hover, .performance-iq-main-section .block_of_content_of_event .builder-buttons a:not(.btn):hover, .performance-iq-hero-section .block_of_content_of_event .builder-buttons a:not(.btn):hover {
+  color: #FF7300;
+}
+.event-main-section .block_of_content_of_event_with_image, .performance-iq-main-section .block_of_content_of_event_with_image, .performance-iq-hero-section .block_of_content_of_event_with_image {
+  background-size: cover !important;
+  background-position: center !important;
+  right: 15px;
+  top: 84px;
+  height: 469px;
+}
+@media (min-width: 1720px) {
+  .event-main-section .block_of_content_of_event_with_image, .performance-iq-main-section .block_of_content_of_event_with_image, .performance-iq-hero-section .block_of_content_of_event_with_image {
+    right: 100px;
+  }
+}
+@media (max-width: 1220px) {
+  .event-main-section .block_of_content_of_event_with_image, .performance-iq-main-section .block_of_content_of_event_with_image, .performance-iq-hero-section .block_of_content_of_event_with_image {
+    right: 0px;
+    top: 0px;
+  }
+}
+.event-main-section .block_of_content_of_event_with_image img, .performance-iq-main-section .block_of_content_of_event_with_image img, .performance-iq-hero-section .block_of_content_of_event_with_image img {
+  min-width: 834px;
+  height: 553px;
+  object-fit: cover;
+  padding-top: 84px;
+  float: right;
+}
+@media (max-width: 1720px) {
+  .event-main-section .block_of_content_of_event_with_image img, .performance-iq-main-section .block_of_content_of_event_with_image img, .performance-iq-hero-section .block_of_content_of_event_with_image img {
+    min-width: 417px;
+  }
+}
+@media (max-width: 1220px) {
+  .event-main-section .block_of_content_of_event_with_image img, .performance-iq-main-section .block_of_content_of_event_with_image img, .performance-iq-hero-section .block_of_content_of_event_with_image img {
+    padding-top: 0px;
+    float: none;
+    width: 100%;
+  }
+}
+
+.event-recent-section, .performance-iq-recent-section {
+  margin-bottom: 200px;
+}
+.event-recent-section .builder-video-list-item, .performance-iq-recent-section .builder-video-list-item {
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+@media (max-width: 767px) {
+  .event-recent-section .builder-video-list-item, .performance-iq-recent-section .builder-video-list-item {
+    cursor: pointer;
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+.event-recent-section .builder-video-list-item h3, .performance-iq-recent-section .builder-video-list-item h3, .event-recent-section .builder-video-list-item h4, .performance-iq-recent-section .builder-video-list-item h4 {
+  max-width: 541px;
+  font-size: 24px;
+  line-height: 130%;
+  margin-bottom: 20px;
+  display: none;
+}
+@media (max-width: 1300px) {
+  .event-recent-section .builder-video-list-item h3, .performance-iq-recent-section .builder-video-list-item h3, .event-recent-section .builder-video-list-item h4, .performance-iq-recent-section .builder-video-list-item h4 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 767px) {
+  .event-recent-section .builder-video-list-item h3, .performance-iq-recent-section .builder-video-list-item h3, .event-recent-section .builder-video-list-item h4, .performance-iq-recent-section .builder-video-list-item h4 {
+    font-size: 16px;
+  }
+}
+@media (max-width: 767px) {
+  .event-recent-section .builder-video-list-item h3, .performance-iq-recent-section .builder-video-list-item h3, .event-recent-section .builder-video-list-item h4, .performance-iq-recent-section .builder-video-list-item h4 {
+    display: block;
+  }
+}
+.event-recent-section .builder-video-list-item h4, .performance-iq-recent-section .builder-video-list-item h4 {
+  margin-bottom: 0px;
+  font-size: 14px;
+  padding-top: 20px;
+  margin-bottom: 5px;
+}
+.event-recent-section .builder-video-list-item .builder-video-list-item--inner, .performance-iq-recent-section .builder-video-list-item .builder-video-list-item--inner {
+  background-size: cover !important;
+  padding-bottom: 56.25%;
+  position: relative;
+}
+.event-recent-section .builder-video-list-item .builder-video-list-item--inner .builder-video-list--text, .performance-iq-recent-section .builder-video-list-item .builder-video-list-item--inner .builder-video-list--text {
+  position: absolute;
+  bottom: 40px;
+  left: 40px;
+  padding-right: 40px;
+}
+.event-recent-section .builder-video-list-item .builder-video-list-item--inner .builder-video-list--text h3, .performance-iq-recent-section .builder-video-list-item .builder-video-list-item--inner .builder-video-list--text h3, .event-recent-section .builder-video-list-item .builder-video-list-item--inner .builder-video-list--text h4, .performance-iq-recent-section .builder-video-list-item .builder-video-list-item--inner .builder-video-list--text h4 {
+  color: #ffffff;
+  display: none;
+}
+@media (min-width: 768px) {
+  .event-recent-section .builder-video-list-item .builder-video-list-item--inner .builder-video-list--text h3, .performance-iq-recent-section .builder-video-list-item .builder-video-list-item--inner .builder-video-list--text h3, .event-recent-section .builder-video-list-item .builder-video-list-item--inner .builder-video-list--text h4, .performance-iq-recent-section .builder-video-list-item .builder-video-list-item--inner .builder-video-list--text h4 {
+    display: block;
+  }
+}
+@media (max-width: 1200px) {
+  .event-recent-section .builder-video-list-item .builder-video-list-item--inner .builder-video-list--text, .performance-iq-recent-section .builder-video-list-item .builder-video-list-item--inner .builder-video-list--text {
+    bottom: 20px;
+    left: 20px;
+    padding-right: 20px;
+  }
+}
+.event-recent-section .builder-video-list-item .builder-video-list-item--inner .builder-video-list--text div, .performance-iq-recent-section .builder-video-list-item .builder-video-list-item--inner .builder-video-list--text div {
+  display: flex;
+  align-items: center;
+  color: #FF7300;
+}
+.event-recent-section .builder-video-list-item .builder-video-list-item--inner .builder-video-list--text div a:hover, .performance-iq-recent-section .builder-video-list-item .builder-video-list-item--inner .builder-video-list--text div a:hover {
+  text-decoration: none;
+}
+.event-recent-section .loadMoreBtn, .performance-iq-recent-section .loadMoreBtn {
+  bottom: 0;
+  margin-top: 50px;
+  margin-left: 50%;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+@media (max-width: 767.98px) {
+  .event-recent-section .loadMoreBtn, .performance-iq-recent-section .loadMoreBtn {
+    display: block;
+    min-width: 100%;
+  }
+}
+
+.modal-backdrop {
+  z-index: 99;
+}
+
+.newsletter-main-section {
+  padding: 200px 0 125px;
+  overflow: hidden;
+}
+.newsletter-main-section h1.title {
+  font-size: 60px;
+  line-height: 78px;
+}
+@media (max-width: 544px) {
+  .newsletter-main-section h1.title {
+    font-size: 44px;
+  }
+}
+@media (max-width: 466px) {
+  .newsletter-main-section h1.title {
+    font-size: 30px;
+  }
+}
+@media (max-width: 280px) {
+  .newsletter-main-section h1.title {
+    font-size: 20px;
+  }
+}
+.newsletter-main-section .block_of_content_of_newsletter {
+  height: 594px;
+  background-size: cover !important;
+  background-position: center center !important;
+  background-repeat: no-repeat !important;
+  cursor: pointer;
+}
+@media (max-width: 1220px) {
+  .newsletter-main-section .block_of_content_of_newsletter {
+    width: auto;
+    height: 400px;
+  }
+}
+@media (max-width: 541px) {
+  .newsletter-main-section .block_of_content_of_newsletter {
+    height: 442px;
+  }
+}
+@media (max-width: 425px) {
+  .newsletter-main-section .block_of_content_of_newsletter {
+    height: 528px;
+  }
+}
+@media (max-width: 280px) {
+  .newsletter-main-section .block_of_content_of_newsletter {
+    height: 684px;
+  }
+}
+.newsletter-main-section .block_of_content_of_newsletter .builder-text, .newsletter-main-section .block_of_content_of_newsletter .builder-list-of-expert .builder-list-of-expert-item .builder-list-of-expert-item--text p, .builder-list-of-expert .builder-list-of-expert-item .builder-list-of-expert-item--text .newsletter-main-section .block_of_content_of_newsletter p, .newsletter-main-section .block_of_content_of_newsletter .block_of_text_with_list ul li, .block_of_text_with_list ul .newsletter-main-section .block_of_content_of_newsletter li, .newsletter-main-section .block_of_content_of_newsletter .builder-video-list .builder-video-list-slider .builder-video-list-item h3, .builder-video-list .builder-video-list-slider .builder-video-list-item .newsletter-main-section .block_of_content_of_newsletter h3, .newsletter-main-section .block_of_content_of_newsletter .builder-video-list .builder-video-list-slider .builder-video-list-item h4, .builder-video-list .builder-video-list-slider .builder-video-list-item .newsletter-main-section .block_of_content_of_newsletter h4, .newsletter-main-section .block_of_content_of_newsletter .event-recent-section .builder-video-list-item h3, .newsletter-main-section .block_of_content_of_newsletter .performance-iq-recent-section .builder-video-list-item h3, .event-recent-section .builder-video-list-item .newsletter-main-section .block_of_content_of_newsletter h3, .performance-iq-recent-section .builder-video-list-item .newsletter-main-section .block_of_content_of_newsletter h3, .newsletter-main-section .block_of_content_of_newsletter .event-recent-section .builder-video-list-item h4, .newsletter-main-section .block_of_content_of_newsletter .performance-iq-recent-section .builder-video-list-item h4, .event-recent-section .builder-video-list-item .newsletter-main-section .block_of_content_of_newsletter h4, .performance-iq-recent-section .builder-video-list-item .newsletter-main-section .block_of_content_of_newsletter h4, .newsletter-main-section .block_of_content_of_newsletter .builder-subtitle, .newsletter-main-section .block_of_content_of_newsletter .builder-buttons {
+  padding-left: 40px;
+}
+.newsletter-main-section .block_of_content_of_newsletter .builder-text, .newsletter-main-section .block_of_content_of_newsletter .builder-list-of-expert .builder-list-of-expert-item .builder-list-of-expert-item--text p, .builder-list-of-expert .builder-list-of-expert-item .builder-list-of-expert-item--text .newsletter-main-section .block_of_content_of_newsletter p, .newsletter-main-section .block_of_content_of_newsletter .block_of_text_with_list ul li, .block_of_text_with_list ul .newsletter-main-section .block_of_content_of_newsletter li, .newsletter-main-section .block_of_content_of_newsletter .builder-video-list .builder-video-list-slider .builder-video-list-item h3, .builder-video-list .builder-video-list-slider .builder-video-list-item .newsletter-main-section .block_of_content_of_newsletter h3, .newsletter-main-section .block_of_content_of_newsletter .builder-video-list .builder-video-list-slider .builder-video-list-item h4, .builder-video-list .builder-video-list-slider .builder-video-list-item .newsletter-main-section .block_of_content_of_newsletter h4, .newsletter-main-section .block_of_content_of_newsletter .event-recent-section .builder-video-list-item h3, .newsletter-main-section .block_of_content_of_newsletter .performance-iq-recent-section .builder-video-list-item h3, .event-recent-section .builder-video-list-item .newsletter-main-section .block_of_content_of_newsletter h3, .performance-iq-recent-section .builder-video-list-item .newsletter-main-section .block_of_content_of_newsletter h3, .newsletter-main-section .block_of_content_of_newsletter .event-recent-section .builder-video-list-item h4, .newsletter-main-section .block_of_content_of_newsletter .performance-iq-recent-section .builder-video-list-item h4, .event-recent-section .builder-video-list-item .newsletter-main-section .block_of_content_of_newsletter h4, .performance-iq-recent-section .builder-video-list-item .newsletter-main-section .block_of_content_of_newsletter h4, .newsletter-main-section .block_of_content_of_newsletter .builder-subtitle {
+  padding-right: 16em;
+}
+@media (max-width: 1220px) {
+  .newsletter-main-section .block_of_content_of_newsletter .builder-text, .newsletter-main-section .block_of_content_of_newsletter .builder-list-of-expert .builder-list-of-expert-item .builder-list-of-expert-item--text p, .builder-list-of-expert .builder-list-of-expert-item .builder-list-of-expert-item--text .newsletter-main-section .block_of_content_of_newsletter p, .newsletter-main-section .block_of_content_of_newsletter .block_of_text_with_list ul li, .block_of_text_with_list ul .newsletter-main-section .block_of_content_of_newsletter li, .newsletter-main-section .block_of_content_of_newsletter .builder-video-list .builder-video-list-slider .builder-video-list-item h3, .builder-video-list .builder-video-list-slider .builder-video-list-item .newsletter-main-section .block_of_content_of_newsletter h3, .newsletter-main-section .block_of_content_of_newsletter .builder-video-list .builder-video-list-slider .builder-video-list-item h4, .builder-video-list .builder-video-list-slider .builder-video-list-item .newsletter-main-section .block_of_content_of_newsletter h4, .newsletter-main-section .block_of_content_of_newsletter .event-recent-section .builder-video-list-item h3, .newsletter-main-section .block_of_content_of_newsletter .performance-iq-recent-section .builder-video-list-item h3, .event-recent-section .builder-video-list-item .newsletter-main-section .block_of_content_of_newsletter h3, .performance-iq-recent-section .builder-video-list-item .newsletter-main-section .block_of_content_of_newsletter h3, .newsletter-main-section .block_of_content_of_newsletter .event-recent-section .builder-video-list-item h4, .newsletter-main-section .block_of_content_of_newsletter .performance-iq-recent-section .builder-video-list-item h4, .event-recent-section .builder-video-list-item .newsletter-main-section .block_of_content_of_newsletter h4, .performance-iq-recent-section .builder-video-list-item .newsletter-main-section .block_of_content_of_newsletter h4, .newsletter-main-section .block_of_content_of_newsletter .builder-subtitle {
+    padding-right: 20px;
+  }
+}
+.newsletter-main-section .block_of_content_of_newsletter .builder-text:nth-of-type(1), .newsletter-main-section .block_of_content_of_newsletter .builder-list-of-expert .builder-list-of-expert-item .builder-list-of-expert-item--text p:nth-of-type(1), .builder-list-of-expert .builder-list-of-expert-item .builder-list-of-expert-item--text .newsletter-main-section .block_of_content_of_newsletter p:nth-of-type(1), .newsletter-main-section .block_of_content_of_newsletter .block_of_text_with_list ul li:nth-of-type(1), .block_of_text_with_list ul .newsletter-main-section .block_of_content_of_newsletter li:nth-of-type(1), .newsletter-main-section .block_of_content_of_newsletter .builder-video-list .builder-video-list-slider .builder-video-list-item h3:nth-of-type(1), .builder-video-list .builder-video-list-slider .builder-video-list-item .newsletter-main-section .block_of_content_of_newsletter h3:nth-of-type(1), .newsletter-main-section .block_of_content_of_newsletter .builder-video-list .builder-video-list-slider .builder-video-list-item h4:nth-of-type(1), .builder-video-list .builder-video-list-slider .builder-video-list-item .newsletter-main-section .block_of_content_of_newsletter h4:nth-of-type(1), .newsletter-main-section .block_of_content_of_newsletter .event-recent-section .builder-video-list-item h3:nth-of-type(1), .newsletter-main-section .block_of_content_of_newsletter .performance-iq-recent-section .builder-video-list-item h3:nth-of-type(1), .event-recent-section .builder-video-list-item .newsletter-main-section .block_of_content_of_newsletter h3:nth-of-type(1), .performance-iq-recent-section .builder-video-list-item .newsletter-main-section .block_of_content_of_newsletter h3:nth-of-type(1), .newsletter-main-section .block_of_content_of_newsletter .event-recent-section .builder-video-list-item h4:nth-of-type(1), .newsletter-main-section .block_of_content_of_newsletter .performance-iq-recent-section .builder-video-list-item h4:nth-of-type(1), .event-recent-section .builder-video-list-item .newsletter-main-section .block_of_content_of_newsletter h4:nth-of-type(1), .performance-iq-recent-section .builder-video-list-item .newsletter-main-section .block_of_content_of_newsletter h4:nth-of-type(1) {
+  color: #fff;
+  height: 28px;
+  padding-top: 352px;
+  margin-bottom: 25px;
+}
+@media (max-width: 1220px) {
+  .newsletter-main-section .block_of_content_of_newsletter .builder-text:nth-of-type(1), .newsletter-main-section .block_of_content_of_newsletter .builder-list-of-expert .builder-list-of-expert-item .builder-list-of-expert-item--text p:nth-of-type(1), .builder-list-of-expert .builder-list-of-expert-item .builder-list-of-expert-item--text .newsletter-main-section .block_of_content_of_newsletter p:nth-of-type(1), .newsletter-main-section .block_of_content_of_newsletter .block_of_text_with_list ul li:nth-of-type(1), .block_of_text_with_list ul .newsletter-main-section .block_of_content_of_newsletter li:nth-of-type(1), .newsletter-main-section .block_of_content_of_newsletter .builder-video-list .builder-video-list-slider .builder-video-list-item h3:nth-of-type(1), .builder-video-list .builder-video-list-slider .builder-video-list-item .newsletter-main-section .block_of_content_of_newsletter h3:nth-of-type(1), .newsletter-main-section .block_of_content_of_newsletter .builder-video-list .builder-video-list-slider .builder-video-list-item h4:nth-of-type(1), .builder-video-list .builder-video-list-slider .builder-video-list-item .newsletter-main-section .block_of_content_of_newsletter h4:nth-of-type(1), .newsletter-main-section .block_of_content_of_newsletter .event-recent-section .builder-video-list-item h3:nth-of-type(1), .newsletter-main-section .block_of_content_of_newsletter .performance-iq-recent-section .builder-video-list-item h3:nth-of-type(1), .event-recent-section .builder-video-list-item .newsletter-main-section .block_of_content_of_newsletter h3:nth-of-type(1), .performance-iq-recent-section .builder-video-list-item .newsletter-main-section .block_of_content_of_newsletter h3:nth-of-type(1), .newsletter-main-section .block_of_content_of_newsletter .event-recent-section .builder-video-list-item h4:nth-of-type(1), .newsletter-main-section .block_of_content_of_newsletter .performance-iq-recent-section .builder-video-list-item h4:nth-of-type(1), .event-recent-section .builder-video-list-item .newsletter-main-section .block_of_content_of_newsletter h4:nth-of-type(1), .performance-iq-recent-section .builder-video-list-item .newsletter-main-section .block_of_content_of_newsletter h4:nth-of-type(1) {
+    padding-top: 178px;
+  }
+}
+.newsletter-main-section .block_of_content_of_newsletter .builder-subtitle {
+  font-size: 30px;
+  margin-bottom: 25px;
+}
+.newsletter-main-section .block_of_content_of_newsletter .builder-buttons div {
+  display: flex;
+  align-items: center;
+  color: #FF7300;
+}
+.newsletter-main-section .block_of_content_of_newsletter .builder-buttons div a:hover {
+  text-decoration: none;
+}
+
+.newsletter-list-section .blog-title h4 {
+  color: #fff;
+  font-size: 16px;
+  padding-top: 20px;
+  margin-bottom: 5px;
+}
+@media (max-width: 1060px) {
+  .newsletter-list-section .tools {
+    padding-top: 47px;
+  }
+}
+
+.metrics-container-wrapper .metrics-container {
+  margin: 0 auto;
+  padding: 68px 90px 50px 90px;
+  max-width: 1172px;
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  background-color: #20222B;
+  -ms-grid-columns: minmax(150px, 1fr) 10px minmax(150px, 1fr) 10px minmax(150px, 1fr);
+  grid-template-columns: repeat(3, minmax(150px, 1fr));
+  -ms-grid-rows: auto 10px auto;
+  grid-template-rows: auto auto;
+  gap: 10px;
+}
+
+.metrics-container-wrapper .metrics-container > *:nth-child(1) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+}
+
+.metrics-container-wrapper .metrics-container > *:nth-child(2) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+}
+
+.metrics-container-wrapper .metrics-container > *:nth-child(3) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 5;
+}
+
+.metrics-container-wrapper .metrics-container > *:nth-child(4) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+}
+
+.metrics-container-wrapper .metrics-container > *:nth-child(5) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 3;
+}
+
+.metrics-container-wrapper .metrics-container > *:nth-child(6) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 5;
+}
+
+.metrics-container-wrapper .metrics-container .icon-card {
+  gap: 0 15px;
+  padding: 0;
+  -ms-grid-column-align: center;
+  justify-self: center;
+}
+
+@media (max-width: 965.98px) {
+  .main_slider .arrows-container {
+    bottom: 4%;
+  }
+
+  .logo-section {
+    margin-top: -130px;
+    padding-bottom: 75px;
+  }
+
+  .metrics-container-wrapper .metrics-container .icon-card {
+    margin-bottom: 30px;
+    padding-left: 14px;
+    justify-self: flex-start;
+  }
+}
+.metrics-container-wrapper .metrics-container .icon-card svg {
+  width: 100%;
+}
+
+@media (max-width: 965.98px) {
+  .metrics-container-wrapper .metrics-container .icon-card .icon-container {
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+  }
+}
+@media (max-width: 767.98px) {
+  .metrics-container-wrapper .metrics-container {
+    -ms-grid-columns: minmax(150px, 1fr) [1];
+    grid-template-columns: repeat(1, minmax(150px, 1fr));
+    -ms-grid-rows: auto auto;
+    grid-template-rows: auto auto;
+    width: 95%;
+  }
+
+  .metrics-container-wrapper .metrics-container > *:nth-child(1) {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+  }
+
+  .metrics-container-wrapper .metrics-container > *:nth-child(2) {
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
+  }
+}
+.metrics-container-wrapper .metrics-container .copy-container .title {
+  font-size: 24px;
+  line-height: 32px;
+  margin: 0;
+}
+
+.metrics-container-wrapper .metrics-container .copy-container p {
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  margin: 0;
+  margin-top: 5px;
+}
+
+.logo-section {
+  margin-top: -260px;
+  background-color: transparent;
+}
+@media (max-width: 2560px) {
+  .logo-section {
+    margin-top: -200px;
+  }
+}
+@media (max-width: 1920px) {
+  .logo-section {
+    margin-top: -161px;
+    padding-bottom: 60px;
+  }
+}
+
+.metrics-container-wrapper {
+  color: #fff;
+  margin-bottom: 120px;
+  margin-top: -51px;
+}
+@media (min-width: 2048px) {
+  .metrics-container-wrapper {
+    margin-top: -101px;
+  }
+}
+@media (max-width: 965.98px) {
+  .metrics-container-wrapper .metrics-container {
+    width: 100%;
+    padding: 80px 10px 10px 10px;
+  }
+}
+
+.main_slider {
+  height: 78vh;
+}
+@media (min-width: 2560px) {
+  .main_slider {
+    height: 70vh;
+  }
+}
+.main_slider .content {
+  top: 36vh;
+}
+@media (min-width: 576px) {
+  .main_slider .content p {
+    padding: 0 5% 25px 5%;
+  }
+}
+@media screen and (orientation: landscape) and (max-height: 560px) {
+  .main_slider {
+    height: auto;
+    max-height: 560px;
+  }
+  .main_slider .content {
+    top: 26%;
+  }
+}
+
+.our-process_copy .info {
+  width: 387px;
+  padding-right: 2px;
+}
+@media (max-width: 965.98px) {
+  .our-process_copy .info {
+    width: 340px;
+  }
+}
+
+.why-section {
+  background: linear-gradient(281.86deg, #1C1E26 9.65%, #20222B 97.52%);
+}
+@media (max-width: 767.98px) {
+  .why-section {
+    margin-top: -70px;
+  }
+}
+.why-section .container {
+  padding-top: 120px;
+}
+.why-section .short-content {
+  margin: 0 auto;
+  width: 935px;
+}
+@media (max-width: 965.98px) {
+  .why-section .short-content {
+    width: 100%;
+  }
+}
+@media (max-width: 767.98px) {
+  .why-section .short-content {
+    margin-bottom: 40px;
+  }
+}
+.why-section .short-content .title-wrapper {
+  margin: 0 auto;
+  width: 50%;
+  display: flex;
+}
+@media (max-width: 965.98px) {
+  .why-section .short-content .title-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.why-section .short-content h2 {
+  display: inline-flex;
+  font-size: 50px;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+.why-section .short-content img {
+  width: 290px;
+  margin-left: 12px;
+  margin-top: -29px;
+}
+@media (max-width: 965.98px) {
+  .why-section .short-content img {
+    margin-left: 0;
+  }
+}
+@media (max-width: 320px) {
+  .why-section .short-content img {
+    margin-top: 17px;
+  }
+}
+.why-section .short-content span {
+  font-size: 50px;
+  font-weight: 600;
+  color: #FF7300;
+}
+.why-section .short-content .info {
+  margin-top: 32px;
+  line-height: 170%;
+  text-align: center;
+  font-size: 20px;
+}
+@media (max-width: 965.98px) {
+  .why-section .short-content .info {
+    width: 100%;
+    margin-bottom: 70px;
+    font-size: 14px;
+  }
+}
+.why-section .content-grid {
+  display: grid;
+  margin-top: 120px;
+}
+@media (max-width: 965.98px) {
+  .why-section .content-grid {
+    margin-top: 0;
+  }
+}
+@media (max-width: 767.98px) {
+  .why-section .content-grid {
+    display: block;
+  }
+}
+.paywall-form-container, .modal-form-container {
+  padding: 30px;
+}
+.paywall-form-container .webinar-registration-form, .modal-form-container .webinar-registration-form {
+  width: 100%;
+  font-family: "sofia-pro" !important;
+  font-weight: 300 !important;
+}
+.paywall-form-container .webinar-registration-form fieldset, .modal-form-container .webinar-registration-form fieldset {
+  max-width: none;
+  margin-bottom: 10px;
+}
+.paywall-form-container .webinar-registration-form fieldset label, .modal-form-container .webinar-registration-form fieldset label {
+  color: #fff;
+  font-family: "sofia-pro" !important;
+  font-weight: 700 !important;
+}
+.paywall-form-container .webinar-registration-form fieldset input, .modal-form-container .webinar-registration-form fieldset input {
+  width: 100% !important;
+  height: 50px;
+  border: 1px solid #646774;
+  background-color: transparent !important;
+  padding: 16px 20px;
+  color: #a8abb2;
+}
+.paywall-form-container .webinar-registration-form .hs-error-msgs, .modal-form-container .webinar-registration-form .hs-error-msgs {
+  padding-left: 0;
+  list-style: none;
+}
+.paywall-form-container .webinar-registration-form .hs-error-msgs li label, .modal-form-container .webinar-registration-form .hs-error-msgs li label {
+  display: inline-block;
+  color: #a8abb2 !important;
+  font-size: 12px;
+  font-family: "sofia-pro" !important;
+  font-weight: 400;
+}
+.paywall-form-container .webinar-registration-form .submit-button, .modal-form-container .webinar-registration-form .submit-button {
+  background-color: #ff7300 !important;
+  border: none;
+  padding: 12px;
+  margin-top: 20px;
+  color: #fff;
+  width: 160px;
+  height: 50px;
+  font-size: 16px;
+  line-height: 21px;
+}
+.paywall-form-container .submitted-message, .modal-form-container .submitted-message {
+  color: #fff;
+  font-size: 25px;
+}
+
+.performanceSec .right-box {
+  right: 11.5%;
+}
+@media (max-width: 965.98px) {
+  .performanceSec .right-box {
+    right: 0;
+  }
+}
+
+.site {
+  overflow-x: hidden;
+}
+
+.why-performance-section {
+  margin-bottom: 23px;
+}
+.why-performance-section .short-content {
+  margin: 0 auto;
+  width: 935px;
+}
+@media (max-width: 965.98px) {
+  .why-performance-section .short-content {
+    width: 100%;
+  }
+}
+@media (max-width: 767.98px) {
+  .why-performance-section .short-content {
+    margin-bottom: 40px;
+  }
+}
+.why-performance-section .short-content .title-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.why-performance-section .short-content .title-wrapper svg {
+  width: 74px;
+  height: 71px;
+  margin-bottom: 32px;
+}
+.why-performance-section .short-content .title-wrapper .title {
+  font-size: 50px;
+  font-weight: 600;
+  color: #FFF;
+  line-height: 130%;
+  margin-top: -14px;
+  margin-bottom: 17px;
+  display: flex;
+}
+@media (max-width: 965.98px) {
+  .why-performance-section .short-content .title-wrapper .title {
+    font-size: 40px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .why-performance-section .short-content .title-wrapper .title .white {
+    margin-right: 0;
+  }
+}
+@media (max-width: 390px) {
+  .why-performance-section .short-content .title-wrapper .title {
+    font-size: 36px;
+  }
+}
+@media (max-width: 358px) {
+  .why-performance-section .short-content .title-wrapper .title {
+    font-size: 32px;
+  }
+}
+.why-performance-section .short-content .title-wrapper .title span {
+  color: #FF7300;
+}
+.why-performance-section .short-content .title-wrapper .title span.white {
+  color: #fff;
+  margin-right: 12px;
+}
+.why-performance-section .short-content .info {
+  margin-top: 32px;
+  line-height: 170%;
+  text-align: center;
+  font-size: 20px;
+}
+@media (max-width: 965.98px) {
+  .why-performance-section .short-content .info {
+    width: 100%;
+    font-size: 14px;
+  }
+}
+.why-performance-section .central-image-container {
+  width: 1172px;
+  margin: 0 auto;
+}
+@media (max-width: 965.98px) {
+  .why-performance-section .central-image-container {
+    margin-top: -50px;
+  }
+}
+@media (max-width: 768px) {
+  .why-performance-section .central-image-container {
+    margin-top: -88px;
+  }
+}
+@media (max-width: 767px) {
+  .why-performance-section .central-image-container {
+    margin-top: -100px;
+  }
+}
+.why-performance-section .central-image-container svg {
+  width: 100%;
+}
+@media (max-width: 965.98px) {
+  .why-performance-section .central-image-container svg {
+    width: 92vw;
+  }
+}
+
+.our-process_section {
+  padding: 140px 0 140px;
+}
+@media (max-width: 768px) {
+  .our-process_section {
+    padding: 45px 0 45px;
+  }
+}
+
+.gpm-glance-section {
+  color: #fff;
+  background: linear-gradient(281.86deg, rgba(47, 49, 60, 0.6) 9.65%, #2f313c 97.52%);
+  padding: 100px 0;
+}
+@media (max-width: 768px) {
+  .gpm-glance-section {
+    padding: 50px 0 35px;
+  }
+}
+.gpm-glance-section .info {
+  max-width: 806px;
+  margin-bottom: 38px;
+}
+.gpm-glance-section .info p {
+  color: #A8ABB2;
+}
+.gpm-glance-section .gpm-glance-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto auto;
+  gap: 24px;
+}
+@media (max-width: 965.98px) {
+  .gpm-glance-section .gpm-glance-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media (max-width: 767px) {
+  .gpm-glance-section .gpm-glance-grid {
+    display: none;
+  }
+}
+.gpm-glance-section .gpm-glance-grid .gpm-glance-card {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding: 47px 60px;
+  text-align: center;
+  background-color: #1b1e28;
+}
+@media (max-width: 768px) {
+  .gpm-glance-section .gpm-glance-grid .gpm-glance-card {
+    padding: 32px 24px;
+  }
+}
+.gpm-glance-section .gpm-glance-grid .gpm-glance-card .gpm-glance-card-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 32px;
+}
+.gpm-glance-section .gpm-glance-grid .gpm-glance-card .gpm-glance-card-header .gpm-glance-icon {
+  margin-right: 20px;
+}
+.gpm-glance-section .gpm-glance-grid .gpm-glance-card .gpm-glance-card-header .gpm-glance-title {
+  text-align: left;
+}
+.gpm-glance-section .gpm-glance-grid .gpm-glance-card .gpm-glance-list ul {
+  padding-left: 0;
+  text-align: left;
+  list-style: none;
+}
+.gpm-glance-section .gpm-glance-grid .gpm-glance-card .gpm-glance-list ul li {
+  color: #D3D8E2;
+  margin-bottom: 21px;
+  font-family: "sofia-pro";
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 20.8px;
+  display: flex;
+}
+.gpm-glance-section .gpm-glance-grid .gpm-glance-card .gpm-glance-list ul li::before {
+  content: url("/wp-content/themes/gamebench/css/img/check-orange.svg");
+  margin-right: 13.33px;
+}
+.gpm-glance-section .gpm-glance-slider {
+  display: none;
+  position: relative;
+  padding-bottom: 50px;
+}
+.gpm-glance-section .gpm-glance-slider .tab-arrow {
+  display: block;
+  width: 115px;
+  height: 50px;
+  position: absolute;
+  bottom: 35px;
+  right: 0;
+  z-index: 3;
+}
+.gpm-glance-section .gpm-glance-slider .tab-arrow .goToPrev {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #fff;
+  background-image: url(./img/arrow-left.svg);
+  background-repeat: no-repeat;
+  background-size: 17px 17px;
+  background-position: center center;
+  cursor: pointer;
+}
+.gpm-glance-section .gpm-glance-slider .tab-arrow .goToNext {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #fff;
+  background-image: url(./img/arrow-right.svg);
+  background-repeat: no-repeat;
+  background-size: 17px 17px;
+  background-position: center center;
+  cursor: pointer;
+}
+@media (max-width: 767px) {
+  .gpm-glance-section .gpm-glance-slider {
+    display: block;
+  }
+}
+.gpm-glance-section .gpm-glance-slider .gpm-glance-list {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 45px;
+}
+.gpm-glance-section .gpm-glance-slider .gpm-glance-list .gpm-glance-item {
+  display: flex;
+  width: 100%;
+  padding: 18px;
+  order: 2;
+  background-color: #15171F;
+  padding: 15px 16px;
+}
+.gpm-glance-section .gpm-glance-slider .gpm-glance-list .gpm-glance-item.hidden {
+  display: none;
+}
+.gpm-glance-section .gpm-glance-slider .gpm-glance-list .gpm-glance-item.active {
+  background-color: #FF7300;
+  order: 1;
+  display: flex;
+  background-position: 95%;
+  background-repeat: no-repeat;
+  background-size: 14px;
+  background-image: url("/wp-content/themes/gamebench/css/img/arrow-down_white.svg");
+}
+.gpm-glance-section .gpm-glance-slider .gpm-glance-list .gpm-glance-item.active[dropdown-open=true] {
+  background-image: url("/wp-content/themes/gamebench/css/img/arrow-up_white.svg");
+}
+.gpm-glance-section .gpm-glance-slider .gpm-glance-list .gpm-glance-item.active .gpm-glance-icon {
+  display: none;
+}
+.gpm-glance-section .gpm-glance-slider .gpm-glance-list .gpm-glance-item.active .gpm-glance-icon.dark {
+  display: block;
+}
+.gpm-glance-section .gpm-glance-slider .gpm-glance-list .gpm-glance-item .gpm-glance-icon {
+  margin-right: 11px;
+}
+.gpm-glance-section .gpm-glance-slider .gpm-glance-list .gpm-glance-item .gpm-glance-icon svg {
+  width: 35px;
+  height: 35px;
+}
+.gpm-glance-section .gpm-glance-slider .gpm-glance-list .gpm-glance-item .gpm-glance-icon.dark {
+  display: none;
+}
+.gpm-glance-section .gpm-glance-slider .gpm-glance-list .gpm-glance-item .gpm-glance-title {
+  display: flex;
+  align-items: center;
+}
+.gpm-glance-section .gpm-glance-slider .gpm-glance-list .gpm-glance-item .gpm-glance-title br {
+  display: none;
+}
+.gpm-glance-section .gpm-glance-slider .gpm-glance-item-content {
+  display: block;
+}
+.gpm-glance-section .gpm-glance-slider .gpm-glance-item-content.hidden {
+  display: none;
+}
+.gpm-glance-section .gpm-glance-slider .gpm-glance-item-content ul {
+  padding-left: 0;
+  text-align: left;
+  list-style: none;
+}
+.gpm-glance-section .gpm-glance-slider .gpm-glance-item-content ul li {
+  color: #D3D8E2;
+  margin-bottom: 21px;
+  font-family: "sofia-pro";
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 20.8px;
+  display: flex;
+}
+.gpm-glance-section .gpm-glance-slider .gpm-glance-item-content ul li::before {
+  content: url("/wp-content/themes/gamebench/css/img/check-orange.svg");
+  margin-right: 13.33px;
+}
+
+.services-section {
+  background: linear-gradient(281.86deg, #1C1E26 9.65%, #20222B 97.52%);
+}
+@media (max-width: 767.98px) {
+  .services-section {
+    margin-top: -70px;
+  }
+}
+.services-section .container {
+  padding: 120px 20px 45px;
+}
+@media (max-width: 767.98px) {
+  .services-section .container {
+    padding: 50px 20px 45px;
+  }
+}
+.services-section .title-wrapper {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+@media (max-width: 965.98px) {
+  .services-section .title-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+  }
+}
+.services-section .title-wrapper h2 {
+  display: inline-flex;
+  font-size: 50px;
+  font-weight: 600;
+  margin-bottom: 0;
+  text-align: center;
+  color: #FFFFFF;
+}
+@media (max-width: 965.98px) {
+  .services-section .title-wrapper h2 {
+    font-size: 28px;
+  }
+}
+.services-section .content-grid {
+  display: grid;
+  margin-top: 75px;
+}
+@media (max-width: 965.98px) {
+  .services-section .content-grid {
+    margin-top: 34px;
+  }
+}
+@media (max-width: 767.98px) {
+  .services-section .content-grid {
+    display: block;
+  }
+}
+.services-section .content-grid .content-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas: "column-1 column-2 column-3" "column-1 column-4 column-5";
+  gap: 25px 80px;
+}
+@media (max-width: 965.98px) {
+  .services-section .content-grid .content-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (max-width: 965.98px) {
+  .services-section .content-grid .content-container .icon-card {
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 965.98px) {
+  .services-section .content-grid .content-container .icon-card .icon-container {
+    justify-self: start;
+    margin-bottom: 15px;
+    width: 50px;
+  }
+}
+.services-section .content-grid .content-container .icon-card .copy-container .title {
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 23px;
+}
+@media (max-width: 965.98px) {
+  .services-section .content-grid .content-container .icon-card .copy-container .title {
+    font-size: 14px;
+    margin-bottom: 16px;
+  }
+}
+.services-section .content-grid .content-container .icon-card .copy-container .info {
+  color: #a8abb2;
+  font-size: 16px;
+  line-height: 170%;
+}
+@media (max-width: 965.98px) {
+  .services-section .content-grid .content-container .icon-card .copy-container .info {
+    font-size: 14px;
+  }
+}
+.services-section .content-grid .content-container .icon-card:nth-child(1) {
+  grid-area: column-1;
+}
+.services-section .content-grid .content-container .icon-card:nth-child(2) {
+  grid-area: column-2;
+}
+.services-section .content-grid .content-container .icon-card:nth-child(3) {
+  grid-area: column-3;
+}
+.services-section .content-grid .content-container .icon-card:nth-child(4) {
+  grid-area: column-4;
+}
+.services-section .content-grid .content-container .icon-card:nth-child(5) {
+  grid-area: column-5;
+}
+
+.morecontent span {
+  display: none;
+}
+
+.morecontent .show-more, .morecontent .show-more-top {
+  color: #fff;
+  text-decoration: none;
+}
+
+@media (max-width: 965.98px) {
+  .staff-section #our-team_arrows {
+    bottom: -70px;
+    left: unset !important;
+    right: 20px !important;
+    margin-right: unset !important;
+  }
+
+  .staff-section {
+    padding: 0 0 190px;
+  }
+}
+#performanceSec {
+  margin-bottom: 104px;
+}
+@media (max-width: 965.98px) {
+  #performanceSec {
+    margin-bottom: 65px;
+  }
+}
+
+.top-section_two .content-container .content-column p {
+  line-height: 170%;
+}
+
+@media (max-width: 965.98px) {
+  .testionial-section .content-container .image-column .testimonial-arrows {
+    right: 10px !important;
+    left: unset !important;
+  }
+}
+
+@media (max-width: 965.98px) {
+  .case_study_section {
+    padding: 65px 0 0;
+  }
+}
+
+h1.main-title_home {
+  font-size: 50px !important;
+  line-height: 65px !important;
+}
+@media (max-width: 965.98px) {
+  h1.main-title_home {
+    font-size: 30px !important;
+    line-height: 46px !important;
+  }
+}
+@media (max-width: 767.98px) {
+  h1.main-title_home {
+    font-size: 28px !important;
+    line-height: 36px !important;
+  }
+}
+
+.why-section .content-container .copy-container .title {
+  font-size: 16px !important;
+  line-height: 18px !important;
+}
+
+.our-process_section .our-process_copy .title {
+  color: #fff;
+  font-size: 45px;
+  line-height: 50px;
+  margin-bottom: 25px;
+}
+@media (max-width: 1050px) {
+  .our-process_section .our-process_copy .title {
+    font-size: 40px !important;
+    line-height: 45px !important;
+  }
+}
+@media (max-width: 965.98px) {
+  .our-process_section .our-process_copy .title {
+    font-size: 28px;
+    line-height: 36px;
+    margin-bottom: 15px;
+  }
+}
+
+.verticals-card .verticals-title {
+  font-size: 1rem;
+}
+
+.performance-iq-single-top-section {
+  height: 297px;
+}
+
+.performance-iq-blog-container {
+  margin-top: 184px;
+}
+.performance-iq-blog-container .performance-iq-blog-header-wrapper {
+  display: flex;
+  margin-bottom: 47px;
+}
+@media (max-width: 428px) {
+  .performance-iq-blog-container .performance-iq-blog-header-wrapper {
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 428px) {
+  .performance-iq-blog-container .performance-iq-blog-header-wrapper .performance-iq-logo-container {
+    width: 280px;
+  }
+}
+.performance-iq-blog-container .performance-iq-blog-header-wrapper .performance-iq-logo-container img {
+  image-rendering: -moz-crisp-edges;
+  /* Firefox        */
+  image-rendering: -o-crisp-edges;
+  /* Opera          */
+  image-rendering: -webkit-optimize-contrast;
+  /* Safari         */
+  image-rendering: optimize-contrast;
+  /* CSS3 Proposed  */
+  -ms-interpolation-mode: nearest-neighbor;
+  /* IE8+           */
+  -webkit-backface-visibility: hidden;
+  -ms-transform: translateZ(0);
+  /* IE 9 */
+  -webkit-transform: translateZ(0);
+  /* Chrome, Safari, Opera */
+  transform: translateZ(0);
+}
+.performance-iq-blog-container .performance-iq-blog-header-wrapper .social-share {
+  margin-left: auto;
+}
+@media (max-width: 428px) {
+  .performance-iq-blog-container .performance-iq-blog-header-wrapper .social-share {
+    margin-left: -12px;
+  }
+}
+.performance-iq-blog-container .entry-title {
+  font-size: 35px;
+  margin-bottom: 15px;
+  margin-left: -1px;
+  line-height: 39px;
+}
+.performance-iq-blog-container .blog-author .author-pic {
+  display: none;
+}
+.performance-iq-blog-container .blog-author .author-name {
+  padding-left: 0;
+}
+.performance-iq-blog-container .privacy_section p, .performance-iq-blog-container p.info {
+  font-size: 20px !important;
+}
+
+.performance-iq-hero-section {
+  min-height: 100vh;
+  position: relative;
+  padding: 95px 0 125px;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  margin-bottom: 110px;
+}
+@media (min-height: 1200px) {
+  .performance-iq-hero-section {
+    padding: 138px 0 125px;
+  }
+}
+@media (max-width: 1220px) {
+  .performance-iq-hero-section {
+    padding-bottom: 70px;
+  }
+}
+@media (max-width: 769px) {
+  .performance-iq-hero-section {
+    padding-top: 100px;
+    margin-bottom: 280px;
+  }
+}
+.performance-iq-hero-section .block_of_content_of_event {
+  background: none;
+  width: 100%;
+  height: 100%;
+}
+.performance-iq-hero-section .builder-text, .performance-iq-hero-section .builder-list-of-expert .builder-list-of-expert-item .builder-list-of-expert-item--text p, .builder-list-of-expert .builder-list-of-expert-item .builder-list-of-expert-item--text .performance-iq-hero-section p, .performance-iq-hero-section .block_of_text_with_list ul li, .block_of_text_with_list ul .performance-iq-hero-section li, .performance-iq-hero-section .builder-video-list .builder-video-list-slider .builder-video-list-item h3, .builder-video-list .builder-video-list-slider .builder-video-list-item .performance-iq-hero-section h3, .performance-iq-hero-section .builder-video-list .builder-video-list-slider .builder-video-list-item h4, .builder-video-list .builder-video-list-slider .builder-video-list-item .performance-iq-hero-section h4, .performance-iq-hero-section .event-recent-section .builder-video-list-item h3, .performance-iq-hero-section .performance-iq-recent-section .builder-video-list-item h3, .event-recent-section .builder-video-list-item .performance-iq-hero-section h3, .performance-iq-recent-section .builder-video-list-item .performance-iq-hero-section h3, .performance-iq-hero-section .event-recent-section .builder-video-list-item h4, .performance-iq-hero-section .performance-iq-recent-section .builder-video-list-item h4, .event-recent-section .builder-video-list-item .performance-iq-hero-section h4, .performance-iq-recent-section .builder-video-list-item .performance-iq-hero-section h4 {
+  height: 100% !important;
+  padding-top: 0 !important;
+}
+@media (max-width: 1220px) {
+  .performance-iq-hero-section .builder-text, .performance-iq-hero-section .builder-list-of-expert .builder-list-of-expert-item .builder-list-of-expert-item--text p, .builder-list-of-expert .builder-list-of-expert-item .builder-list-of-expert-item--text .performance-iq-hero-section p, .performance-iq-hero-section .block_of_text_with_list ul li, .block_of_text_with_list ul .performance-iq-hero-section li, .performance-iq-hero-section .builder-video-list .builder-video-list-slider .builder-video-list-item h3, .builder-video-list .builder-video-list-slider .builder-video-list-item .performance-iq-hero-section h3, .performance-iq-hero-section .builder-video-list .builder-video-list-slider .builder-video-list-item h4, .builder-video-list .builder-video-list-slider .builder-video-list-item .performance-iq-hero-section h4, .performance-iq-hero-section .event-recent-section .builder-video-list-item h3, .performance-iq-hero-section .performance-iq-recent-section .builder-video-list-item h3, .event-recent-section .builder-video-list-item .performance-iq-hero-section h3, .performance-iq-recent-section .builder-video-list-item .performance-iq-hero-section h3, .performance-iq-hero-section .event-recent-section .builder-video-list-item h4, .performance-iq-hero-section .performance-iq-recent-section .builder-video-list-item h4, .event-recent-section .builder-video-list-item .performance-iq-hero-section h4, .performance-iq-recent-section .builder-video-list-item .performance-iq-hero-section h4 {
+    padding-left: 21px !important;
+  }
+}
+.performance-iq-hero-section .performance-iq-logo-container {
+  margin-bottom: 45px;
+}
+@media (max-width: 428px) {
+  .performance-iq-hero-section .performance-iq-logo-container {
+    width: 300px;
+  }
+}
+.performance-iq-hero-section .performance-iq-logo-container img {
+  image-rendering: -moz-crisp-edges;
+  /* Firefox        */
+  image-rendering: -o-crisp-edges;
+  /* Opera          */
+  image-rendering: -webkit-optimize-contrast;
+  /* Safari         */
+  image-rendering: optimize-contrast;
+  /* CSS3 Proposed  */
+  -ms-interpolation-mode: nearest-neighbor;
+  /* IE8+           */
+  -webkit-backface-visibility: hidden;
+  -ms-transform: translateZ(0);
+  /* IE 9 */
+  -webkit-transform: translateZ(0);
+  /* Chrome, Safari, Opera */
+  transform: translateZ(0);
+}
+.performance-iq-hero-section .performance-iq-hero-text {
+  font-family: "sofia-pro";
+  font-weight: 400;
+  line-height: 27px;
+}
+.performance-iq-hero-section .performance-iq-hero-text p {
+  page-break-inside: avoid;
+  -webkit-column-break-inside: avoid;
+  break-inside: avoid;
+}
+.performance-iq-hero-section .sign-up-container {
+  margin: 0 auto;
+  max-width: 1070px;
+}
+
+.performance-iq-main-section {
+  padding-top: 15px;
+}
+@media (min-height: 599px) {
+  .performance-iq-main-section {
+    margin-top: -42vh;
+  }
+}
+@media (min-height: 1200px) {
+  .performance-iq-main-section {
+    margin-top: -50vh;
+  }
+}
+.performance-iq-main-section .block_of_content_of_event {
+  height: 677px;
+}
+@media (max-width: 1140px) {
+  .performance-iq-main-section .block_of_content_of_event {
+    height: 500px;
+  }
+}
+@media (max-width: 768px) {
+  .performance-iq-main-section .block_of_content_of_event {
+    height: 595px;
+  }
+}
+@media (max-width: 768px) {
+  .performance-iq-main-section .block_of_content_of_event .builder-subtitle {
+    padding-left: 21px;
+  }
+}
+@media (max-width: 768px) {
+  .performance-iq-main-section .block_of_content_of_event .builder-text, .performance-iq-main-section .block_of_content_of_event .builder-list-of-expert .builder-list-of-expert-item .builder-list-of-expert-item--text p, .builder-list-of-expert .builder-list-of-expert-item .builder-list-of-expert-item--text .performance-iq-main-section .block_of_content_of_event p, .performance-iq-main-section .block_of_content_of_event .block_of_text_with_list ul li, .block_of_text_with_list ul .performance-iq-main-section .block_of_content_of_event li, .performance-iq-main-section .block_of_content_of_event .builder-video-list .builder-video-list-slider .builder-video-list-item h3, .builder-video-list .builder-video-list-slider .builder-video-list-item .performance-iq-main-section .block_of_content_of_event h3, .performance-iq-main-section .block_of_content_of_event .builder-video-list .builder-video-list-slider .builder-video-list-item h4, .builder-video-list .builder-video-list-slider .builder-video-list-item .performance-iq-main-section .block_of_content_of_event h4, .performance-iq-main-section .block_of_content_of_event .event-recent-section .builder-video-list-item h3, .performance-iq-main-section .block_of_content_of_event .performance-iq-recent-section .builder-video-list-item h3, .event-recent-section .builder-video-list-item .performance-iq-main-section .block_of_content_of_event h3, .performance-iq-recent-section .builder-video-list-item .performance-iq-main-section .block_of_content_of_event h3, .performance-iq-main-section .block_of_content_of_event .event-recent-section .builder-video-list-item h4, .performance-iq-main-section .block_of_content_of_event .performance-iq-recent-section .builder-video-list-item h4, .event-recent-section .builder-video-list-item .performance-iq-main-section .block_of_content_of_event h4, .performance-iq-recent-section .builder-video-list-item .performance-iq-main-section .block_of_content_of_event h4 {
+    padding-left: 21px;
+  }
+}
+@media (max-width: 768px) {
+  .performance-iq-main-section .block_of_content_of_event .builder-buttons {
+    padding-left: 21px;
+  }
+}
+.performance-iq-main-section .block_of_content_of_event_with_image {
+  top: 100px;
+}
+@media (max-width: 1220px) {
+  .performance-iq-main-section .block_of_content_of_event_with_image {
+    top: 0;
+  }
+}
+@media (max-width: 768px) {
+  .performance-iq-main-section .block_of_content_of_event_with_image {
+    height: 250px;
+  }
+}
+
+.performance-iq-recent-section .title {
+  color: #fff;
+  margin: 0;
+}
+.performance-iq-recent-section .title-container {
+  margin-bottom: 40px;
+}
+@media (max-width: 768px) {
+  .performance-iq-recent-section {
+    margin-bottom: 100px;
+  }
+}
+
+.performance-iq-subtitle {
+  font-family: "sofia-pro" !important;
+  font-weight: 300 !important;
+}
+
+b,
+strong {
+  font-family: "sofia-pro";
+  font-weight: 700;
+}
+
+#main-nav #main-menu a {
+  display: flex;
+  align-items: center;
+}
+
+/*# sourceMappingURL=builder-components.css.map */
